@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
     private float horizontalMovement = 0f;
     private bool jump = false;
 
+    [Range(0, 5)][SerializeField] private float speed = 1f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,9 +31,11 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        var totalSpeed = horizontalMovement * speed;
+
         // Move our character
-        characterController.Move(horizontalMovement, false, jump);
-        animator.SetFloat("Speed", Mathf.Abs(horizontalMovement));
+        characterController.Move(totalSpeed, false, jump);
+        animator.SetFloat("Speed", Mathf.Abs(totalSpeed));
         jump = false;
     }
 }
