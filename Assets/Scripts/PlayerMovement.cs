@@ -60,8 +60,10 @@ public class PlayerMovement : MonoBehaviour
         {
             rigidbod.AddForce(new Vector2(0f, jumpForce));
         }
-        var totalSpeed = horizontalMovement * speed;
+
         // Move our character
+        var totalSpeed = horizontalMovement * speed;
+        characterController.Move(totalSpeed, false);
         animator.SetFloat("Speed", Mathf.Abs(totalSpeed));
     }
 }
