@@ -62,7 +62,6 @@ public class PlayerMovement : MonoBehaviour
         }
         var totalSpeed = horizontalMovement * speed;
         // Move our character
-        characterController.Move(totalSpeed, false, false);
         animator.SetFloat("Speed", Mathf.Abs(totalSpeed));
     }
 }
