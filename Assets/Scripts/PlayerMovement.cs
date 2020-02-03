@@ -6,16 +6,22 @@ public class PlayerMovement : MonoBehaviour
 {
     private CharacterController characterController;
     private Animator animator;
+    private Rigidbody2D rigidbod;
     private float horizontalMovement = 0f;
-    private bool jump = false;
+    private float jumpStartTime = 0;
+    private bool canJump = true;
 
     [Range(0, 5)][SerializeField] private float speed = 1f;
+
+    [SerializeField] private float maxJumpTime = .5f;
+    [SerializeField] private float jumpForce = 50f;
 
     // Start is called before the first frame update
     void Start()
     {
         characterController = GetComponent<CharacterController>();
         animator = GetComponent<Animator>();
+        rigidbod = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -25,17 +31,38 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetButtonDown("Jump"))
         {
-            jump = true;
+            jumpStartTime = Time.time;
+        }
+
+        if (Input.GetButton("Jump") && canJump)
+        {
+            if (Time.time - jumpStartTime >= maxJumpTime)
+            {
+                canJump = false;
+            }
+        }
+
+        if (Input.GetButtonUp("Jump") && !characterController.grounded)
+        {
+            canJump = false;
         }
     }
 
-    private void FixedUpdate()
+    public void OnLanded()
     {
-        var totalSpeed = horizontalMovement * speed;
+        canJump = true;
+        jumpStartTime = Time.time;
+    }
 
+    void FixedUpdate()
+    {
+        if (Input.GetButton("Jump") && canJump)
+        {
+            rigidbod.AddForce(new Vector2(0f, jumpForce));
+        }
+        var totalSpeed = horizontalMovement * speed;
         // Move our character
-        characterController.Move(totalSpeed, false, jump);
+        characterController.Move(totalSpeed, false, false);
         animator.SetFloat("Speed", Mathf.Abs(totalSpeed));
-        jump = false;
     }
 }

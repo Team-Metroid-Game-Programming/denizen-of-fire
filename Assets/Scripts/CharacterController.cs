@@ -3,7 +3,13 @@ using UnityEngine.Events;
 
 public class CharacterController: MonoBehaviour
 {
-    public static CharacterController Instance { get; private set; }
+    public bool grounded
+    {
+        get
+        {
+            return m_Grounded;
+        }
+    }
 
     [SerializeField] private float m_JumpForce = 400f;                          // Amount of force added when the player jumps.
     [Range(0, 1)] [SerializeField] private float m_CrouchSpeed = .36f;          // Amount of maxSpeed applied to crouching movement. 1 = 100%
@@ -34,8 +40,6 @@ public class CharacterController: MonoBehaviour
 
     private void Awake()
     {
-        Instance = this;
-
         m_Rigidbody2D = GetComponent<Rigidbody2D>();
 
         if (OnLandEvent == null)
@@ -133,7 +137,7 @@ public class CharacterController: MonoBehaviour
         {
             // Add a vertical force to the player.
             m_Grounded = false;
-            m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+            m_Rigidbody2D.AddRelativeForce(new Vector2(0f, m_JumpForce));
         }
     }
 
