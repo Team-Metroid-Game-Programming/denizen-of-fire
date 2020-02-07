@@ -9,7 +9,10 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rigidbod;
     private float horizontalMovement = 0f;
     private float jumpStartTime = 0;
+
+    // jump flags
     private bool canJump = true;
+    private bool startFall = false;
 
     [Range(0, 5)][SerializeField] private float speed = 1f;
 
@@ -38,24 +41,37 @@ public class PlayerMovement : MonoBehaviour
         {
             if (Time.time - jumpStartTime >= maxJumpTime)
             {
-                canJump = false;
+                startFall = true;
             }
         }
 
-        if (Input.GetButtonUp("Jump") && !characterController.grounded)
+        if (Input.GetButtonUp("Jump"))
         {
-            canJump = false;
+            if (characterController.grounded)
+                canJump = true;
+            else
+                startFall = true;
         }
     }
 
     public void OnLanded()
     {
-        canJump = true;
+        if (!Input.GetButton("Jump"))
+        {
+            canJump = true;
+        }
         jumpStartTime = Time.time;
     }
 
     void FixedUpdate()
     {
+        if (startFall)
+        {
+            rigidbod.AddForce(new Vector2(0f, -jumpForce));
+            startFall = false;
+            canJump = false;
+        }
+
         if (Input.GetButton("Jump") && canJump)
         {
             rigidbod.AddForce(new Vector2(0f, jumpForce));
