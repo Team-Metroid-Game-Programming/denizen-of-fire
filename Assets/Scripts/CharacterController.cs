@@ -22,6 +22,7 @@ public class CharacterController: MonoBehaviour
     const float k_GroundedRadius = .2f; // Radius of the overlap circle to determine if grounded
     private bool m_Grounded;            // Whether or not the player is grounded.
     const float k_CeilingRadius = .2f; // Radius of the overlap circle to determine if the player can stand up
+    private bool m_OnCeiling;
     private Rigidbody2D m_Rigidbody2D;
     private bool m_FacingRight = true;  // For determining which way the player is currently facing.
     private Vector3 m_Velocity = Vector3.zero;
@@ -30,6 +31,7 @@ public class CharacterController: MonoBehaviour
     [Space]
 
     public UnityEvent OnLandEvent;
+    public UnityEvent OnCeilingHit;
 
     [System.Serializable]
     public class BoolEvent : UnityEvent<bool> { }
@@ -44,6 +46,9 @@ public class CharacterController: MonoBehaviour
         if (OnLandEvent == null)
             OnLandEvent = new UnityEvent();
 
+        if (OnCeilingHit == null)
+            OnCeilingHit = new UnityEvent();
+
         if (OnCrouchEvent == null)
             OnCrouchEvent = new BoolEvent();
     }
@@ -53,16 +58,30 @@ public class CharacterController: MonoBehaviour
         bool wasGrounded = m_Grounded;
         m_Grounded = false;
 
+        bool wasOnCeiling = m_OnCeiling;
+        m_OnCeiling = false;
+
         // The player is grounded if a circlecast to the groundcheck position hits anything designated as ground
         // This can be done using layers instead but Sample Assets will not overwrite your project settings.
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround);
-        for (int i = 0; i < colliders.Length; i++)
+        Collider2D[] groundColliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround);
+        for (int i = 0; i < groundColliders.Length; i++)
         {
-            if (colliders[i].gameObject != gameObject)
+            if (groundColliders[i].gameObject != gameObject)
             {
                 m_Grounded = true;
                 if (!wasGrounded)
                     OnLandEvent.Invoke();
+            }
+        }
+
+        Collider2D[] ceilingColliders = Physics2D.OverlapCircleAll(m_CeilingCheck.position, k_CeilingRadius, m_WhatIsGround);
+        for (int i = 0; i < ceilingColliders.Length; i++)
+        {
+            if (ceilingColliders[i].gameObject != gameObject)
+            {
+                m_OnCeiling = true;
+                if (!wasOnCeiling)
+                    OnCeilingHit.Invoke();
             }
         }
     }
