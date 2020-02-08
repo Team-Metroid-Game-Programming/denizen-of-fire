@@ -32,57 +32,16 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        instantDrop = false;
-        horizontalMovement = Input.GetAxisRaw("Horizontal");
-
-        if (Input.GetButtonDown("Jump"))
-        {
-            jumpStartTime = Time.time;
-            if (canJump) rigidbod.AddForce(new Vector2(0f, initalJumpForce));
-        }
-
-        if (Input.GetButton("Jump") && canJump)
-        {
-            if (Time.time - jumpStartTime >= maxJumpTime)
-            {
-                startFall = true;
-            }
-        }
-
-        if (Input.GetButtonUp("Jump"))
-        {
-            if (characterController.grounded)
-                canJump = true;
-            else
-            {
-                startFall = true;
-                instantDrop = true;
-            }
-        }
+        HandleMovement();
+        HandleJump();
+        HandleLedgeFall();
     }
 
     void FixedUpdate()
     {
-        if (startFall)
-        {
-            if (rigidbod.velocity.y > 0 && instantDrop)
-            {
-                rigidbod.velocity = new Vector2(rigidbod.velocity.x, 0);
-            }
-            rigidbod.AddForce(new Vector2(0f, -initalJumpForce));
-            startFall = false;
-            canJump = false;
-        }
-
-        if (Input.GetButton("Jump") && canJump)
-        {
-            rigidbod.velocity = new Vector2(rigidbod.velocity.x, jumpSpeed);
-        }
-
-        // Move our character
-        var totalSpeed = horizontalMovement * movementSpeed;
-        characterController.Move(totalSpeed, false);
-        animator.SetFloat("Speed", Mathf.Abs(totalSpeed));
+        HandleFallPhysics();
+        HandleJumpPhysics();
+        HandleMovementPhysics();
     }
 
     public void OnLanded()
@@ -99,5 +58,82 @@ public class PlayerMovement : MonoBehaviour
         // ouch I hit my head :(
         startFall = true;
         instantDrop = true;
+    }
+
+    private void HandleMovement()
+    {
+        horizontalMovement = Input.GetAxisRaw("Horizontal");
+    }
+
+    private void HandleMovementPhysics()
+    {
+        
+        var totalSpeed = horizontalMovement * movementSpeed;
+        characterController.Move(totalSpeed, false);
+        animator.SetFloat("Speed", Mathf.Abs(totalSpeed));
+    }
+
+    private void HandleJump()
+    {
+        instantDrop = false;
+
+        if (Input.GetButtonDown("Jump"))
+        {
+            jumpStartTime = Time.time;
+            if (canJump) rigidbod.AddForce(new Vector2(0f, initalJumpForce));
+        }
+
+        if (Input.GetButton("Jump") && canJump)
+        {
+            if (Time.time - jumpStartTime >= maxJumpTime)
+            {
+                startFall = true;
+            }
+        }
+
+        // when player relases space
+        if (Input.GetButtonUp("Jump"))
+        {
+            if (characterController.grounded)
+            {
+                // keep can jump disabled until player releases jump from the ground
+                // this keeps the player from repeatedly jumping if holding jump button
+                canJump = true;
+            }
+            else
+            {
+                startFall = true;
+                instantDrop = true;
+            }
+        }
+    }
+
+    private void HandleJumpPhysics()
+    {
+        if (Input.GetButton("Jump") && canJump)
+        {
+            rigidbod.velocity = new Vector2(rigidbod.velocity.x, jumpSpeed);
+        }
+    }
+
+    private void HandleLedgeFall()
+    {
+        // if a player falls from ledge disable the jump until he lands
+        if (canJump && rigidbod.velocity.y < -1 && rigidbod.velocity.y > -2)
+            canJump = false;
+    }
+
+    private void HandleFallPhysics()
+    {
+        if (startFall)
+        {
+            if (rigidbod.velocity.y > 0 && instantDrop)
+            {
+                rigidbod.velocity = new Vector2(rigidbod.velocity.x, 0);
+            }
+            rigidbod.AddForce(new Vector2(0f, -initalJumpForce));
+            startFall = false;
+            canJump = false;
+        }
     }
 }
