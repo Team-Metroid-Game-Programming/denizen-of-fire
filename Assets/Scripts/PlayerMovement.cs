@@ -50,7 +50,6 @@ public class PlayerMovement : MonoBehaviour
         {
             canJump = true;
         }
-        jumpStartTime = Time.time;
     }
 
     public void OnCeilingHit()
@@ -67,24 +66,30 @@ public class PlayerMovement : MonoBehaviour
 
     private void HandleMovementPhysics()
     {
-        
         var totalSpeed = horizontalMovement * movementSpeed;
+        Debug.Log(totalSpeed);
         characterController.Move(totalSpeed, false);
-        animator.SetFloat("Speed", Mathf.Abs(totalSpeed));
+        animator.SetFloat("XSpeed", Mathf.Abs(totalSpeed));
     }
 
     private void HandleJump()
     {
         instantDrop = false;
 
+        animator.SetFloat("YSpeed", rigidbod.velocity.y);
+        animator.SetBool("Grounded", characterController.grounded);
         if (Input.GetButtonDown("Jump"))
         {
             jumpStartTime = Time.time;
-            if (canJump) rigidbod.AddForce(new Vector2(0f, initalJumpForce));
+            if (canJump)
+            {
+                rigidbod.AddForce(new Vector2(0f, initalJumpForce));
+            }
         }
 
         if (Input.GetButton("Jump") && canJump)
         {
+            animator.SetBool("Jumping", true);
             if (Time.time - jumpStartTime >= maxJumpTime)
             {
                 startFall = true;
@@ -134,6 +139,7 @@ public class PlayerMovement : MonoBehaviour
             rigidbod.AddForce(new Vector2(0f, -initalJumpForce));
             startFall = false;
             canJump = false;
+            animator.SetBool("Jumping", false);
         }
     }
 }

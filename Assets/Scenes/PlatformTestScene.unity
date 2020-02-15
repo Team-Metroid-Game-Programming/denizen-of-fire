@@ -301,6 +301,7 @@ GameObject:
   - component: {fileID: 1455151758}
   - component: {fileID: 1455151760}
   - component: {fileID: 1455151761}
+  - component: {fileID: 1455151762}
   m_Layer: 0
   m_Name: Flaire0
   m_TagString: Untagged
@@ -488,7 +489,7 @@ BoxCollider2D:
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_AutoTiling: 1
   serializedVersion: 2
   m_Size: {x: 0.9522507, y: 3.8940353}
   m_EdgeRadius: 0
@@ -508,6 +509,22 @@ MonoBehaviour:
   maxJumpTime: 0.25
   initalJumpForce: 120
   jumpSpeed: 11
+--- !u!114 &1455151762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455151754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5c00a5bf6b4cd4c90810b08769926a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  punchButton: Fire1
+  punchDamage: 5
+  kickButton: Fire2
+  kickDamage: 5
 --- !u!1 &1736465441
 GameObject:
   m_ObjectHideFlags: 0
@@ -991,7 +1008,7 @@ TilemapCollider2D:
   m_GameObject: {fileID: 1974203363}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 7948ec6cf9d01934f9ea39e542a8a3dc, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
