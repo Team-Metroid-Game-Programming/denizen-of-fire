@@ -67,6 +67,7 @@ public class PlayerMovement : MonoBehaviour
     private void HandleMovementPhysics()
     {
         var totalSpeed = horizontalMovement * movementSpeed;
+        Debug.Log(totalSpeed);
         characterController.Move(totalSpeed, false);
         animator.SetFloat("XSpeed", Mathf.Abs(totalSpeed));
     }
