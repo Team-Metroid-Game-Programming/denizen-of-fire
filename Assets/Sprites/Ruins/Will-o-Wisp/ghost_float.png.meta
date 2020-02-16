@@ -1,0 +1,1363 @@
+fileFormatVersion: 2
+guid: f1c610329a10f964884c3e814c0582c6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2019808367785009252
+    second: ghost_float_0
+  - first:
+      213: -274974912765299087
+    second: ghost_float_1
+  - first:
+      213: 3584362264314959549
+    second: ghost_float_2
+  - first:
+      213: 3214106921624579604
+    second: ghost_float_3
+  - first:
+      213: -168757524495812529
+    second: ghost_float_4
+  - first:
+      213: -758887210729509749
+    second: ghost_float_5
+  - first:
+      213: -48537236742481431
+    second: ghost_float_6
+  - first:
+      213: -6737986884182150793
+    second: ghost_float_7
+  - first:
+      213: -7369435513074739608
+    second: ghost_float_8
+  - first:
+      213: 3062669522493287966
+    second: ghost_float_9
+  - first:
+      213: 1072424496911326634
+    second: ghost_float_10
+  - first:
+      213: -6574799253800752183
+    second: ghost_float_11
+  - first:
+      213: 782831638970790960
+    second: ghost_float_12
+  - first:
+      213: 5437277661288052353
+    second: ghost_float_13
+  - first:
+      213: -8241519656783316812
+    second: ghost_float_14
+  - first:
+      213: 3498458575816852687
+    second: ghost_float_15
+  - first:
+      213: -7411375611711701873
+    second: ghost_float_16
+  - first:
+      213: 6336038807549268599
+    second: ghost_float_17
+  - first:
+      213: -6899733227207130270
+    second: ghost_float_18
+  - first:
+      213: -8966333222673135461
+    second: ghost_float_19
+  - first:
+      213: -4707339744005966477
+    second: ghost_float_20
+  - first:
+      213: 6737901112236297573
+    second: ghost_float_21
+  - first:
+      213: -8566936108184634559
+    second: ghost_float_22
+  - first:
+      213: 888618767035247616
+    second: ghost_float_23
+  - first:
+      213: -7134338429095299209
+    second: ghost_float_24
+  - first:
+      213: -1640681116263741234
+    second: ghost_float_25
+  - first:
+      213: 916563076154696462
+    second: ghost_float_26
+  - first:
+      213: 553714670180527179
+    second: ghost_float_27
+  - first:
+      213: 3771917655753941397
+    second: ghost_float_28
+  - first:
+      213: 4190590030502349285
+    second: ghost_float_29
+  - first:
+      213: 5125113741746865854
+    second: ghost_float_30
+  - first:
+      213: -1561533753362816709
+    second: ghost_float_31
+  - first:
+      213: -1239241325519806544
+    second: ghost_float_32
+  - first:
+      213: 2121218568740753838
+    second: ghost_float_33
+  - first:
+      213: 902911566816082219
+    second: ghost_float_34
+  - first:
+      213: -6714949237646386169
+    second: ghost_float_35
+  - first:
+      213: 5408295186745303602
+    second: ghost_float_36
+  - first:
+      213: -756535149356018632
+    second: ghost_float_37
+  - first:
+      213: 8545618089733593009
+    second: ghost_float_38
+  - first:
+      213: 2452946227509463164
+    second: ghost_float_39
+  - first:
+      213: 8393533139402483875
+    second: ghost_float_40
+  - first:
+      213: 7738212914789618605
+    second: ghost_float_41
+  - first:
+      213: 6793168280927984943
+    second: ghost_float_42
+  - first:
+      213: -5292455247774757676
+    second: ghost_float_43
+  - first:
+      213: 5651587834286373388
+    second: ghost_float_44
+  - first:
+      213: 3603753159347369290
+    second: ghost_float_45
+  - first:
+      213: 7464121833956259492
+    second: ghost_float_46
+  - first:
+      213: -5841897310721478092
+    second: ghost_float_47
+  - first:
+      213: 3538194259950665552
+    second: ghost_float_48
+  - first:
+      213: -3747745673207973949
+    second: ghost_float_49
+  - first:
+      213: 8817440437747250873
+    second: ghost_float_50
+  - first:
+      213: 6648860017698833700
+    second: ghost_float_51
+  - first:
+      213: 8268385631870864622
+    second: ghost_float_52
+  - first:
+      213: -4318145931912095790
+    second: ghost_float_53
+  - first:
+      213: 7889884002077955622
+    second: ghost_float_54
+  - first:
+      213: -6472956730133720494
+    second: ghost_float_55
+  - first:
+      213: -6092193154591174350
+    second: ghost_float_56
+  - first:
+      213: -8909548564928015948
+    second: ghost_float_57
+  - first:
+      213: -195796105370068499
+    second: ghost_float_58
+  - first:
+      213: -1563650390031893688
+    second: ghost_float_59
+  - first:
+      213: 8838339409423883738
+    second: ghost_float_60
+  - first:
+      213: -9215137729154799420
+    second: ghost_float_61
+  - first:
+      213: 6783812199795789689
+    second: ghost_float_62
+  - first:
+      213: 5701641986736635055
+    second: ghost_float_63
+  - first:
+      213: 5040048556951053391
+    second: ghost_float_64
+  - first:
+      213: -1763055257045999766
+    second: ghost_float_65
+  - first:
+      213: -5779611679615288994
+    second: ghost_float_66
+  - first:
+      213: -1476307380473936854
+    second: ghost_float_67
+  - first:
+      213: 6570756297916100410
+    second: ghost_float_68
+  - first:
+      213: 8368345230096077807
+    second: ghost_float_69
+  - first:
+      213: 2231866611271419254
+    second: ghost_float_70
+  - first:
+      213: -2415383755044532403
+    second: ghost_float_71
+  - first:
+      213: -1587464613384132201
+    second: ghost_float_72
+  - first:
+      213: -8593834346083186205
+    second: ghost_float_73
+  - first:
+      213: -2352309433865176088
+    second: ghost_float_74
+  - first:
+      213: -7110045061554644565
+    second: ghost_float_75
+  - first:
+      213: 6871369161953899286
+    second: ghost_float_76
+  - first:
+      213: 359007108279801234
+    second: ghost_float_77
+  - first:
+      213: 4682247872896305357
+    second: ghost_float_78
+  - first:
+      213: -1843501856469688470
+    second: ghost_float_79
+  - first:
+      213: -6424177476477929059
+    second: ghost_float_80
+  - first:
+      213: 3280895930698369322
+    second: ghost_float_81
+  - first:
+      213: -265864163239275463
+    second: ghost_float_82
+  - first:
+      213: -5320018484028699148
+    second: ghost_float_83
+  - first:
+      213: 5288834318122846400
+    second: ghost_float_84
+  - first:
+      213: -5181866723220344735
+    second: ghost_float_85
+  - first:
+      213: -3654558130493074191
+    second: ghost_float_86
+  - first:
+      213: -1175479560300311807
+    second: ghost_float_87
+  - first:
+      213: -5848690905531384064
+    second: ghost_float_88
+  - first:
+      213: -129261911204125252
+    second: ghost_float_89
+  - first:
+      213: -1270506623246496565
+    second: ghost_float_90
+  - first:
+      213: -9103479791577257865
+    second: ghost_float_91
+  - first:
+      213: 3489184568486280494
+    second: ghost_float_92
+  - first:
+      213: 4220161342622226940
+    second: ghost_float_93
+  - first:
+      213: -1721069136930156009
+    second: ghost_float_94
+  - first:
+      213: -1162501891520146948
+    second: ghost_float_95
+  - first:
+      213: -2665021720209112022
+    second: ghost_float_96
+  - first:
+      213: -537485768354625031
+    second: ghost_float_97
+  - first:
+      213: 6580225805709742311
+    second: ghost_float_98
+  - first:
+      213: -2174464890448383725
+    second: ghost_float_99
+  - first:
+      213: -7101155738955551029
+    second: ghost_float_100
+  - first:
+      213: -3928795927260517990
+    second: ghost_float_101
+  - first:
+      213: 124284461806063852
+    second: ghost_float_102
+  - first:
+      213: -8093296247142875159
+    second: ghost_float_103
+  - first:
+      213: 7113755075348923877
+    second: ghost_float_104
+  - first:
+      213: -3818903623600613893
+    second: ghost_float_105
+  - first:
+      213: 5672178092774950987
+    second: ghost_float_106
+  - first:
+      213: 9002210332978105225
+    second: ghost_float_107
+  - first:
+      213: -3404346286061510108
+    second: ghost_float_108
+  - first:
+      213: -5048057973654278873
+    second: ghost_float_109
+  - first:
+      213: 9185554113808043848
+    second: ghost_float_110
+  - first:
+      213: 5540186807351662283
+    second: ghost_float_111
+  - first:
+      213: 104869287210594743
+    second: ghost_float_112
+  - first:
+      213: 285984886559461769
+    second: ghost_float_113
+  - first:
+      213: -3747460697787957935
+    second: ghost_float_114
+  - first:
+      213: 8494959891202016584
+    second: ghost_float_115
+  - first:
+      213: -6192917939535683289
+    second: ghost_float_116
+  - first:
+      213: 4762590508478358404
+    second: ghost_float_117
+  - first:
+      213: -2709733535690491697
+    second: ghost_float_118
+  - first:
+      213: -1104982531517184890
+    second: ghost_float_119
+  - first:
+      213: -8605113061801455100
+    second: ghost_float_120
+  - first:
+      213: -3142773480627927953
+    second: ghost_float_121
+  - first:
+      213: 2726477433421455571
+    second: ghost_float_122
+  - first:
+      213: -2555152299158457675
+    second: ghost_float_123
+  - first:
+      213: -6892201481106674444
+    second: ghost_float_124
+  - first:
+      213: 2780573502851736386
+    second: ghost_float_125
+  - first:
+      213: 7766244469609924648
+    second: ghost_float_126
+  - first:
+      213: 1414945704868765665
+    second: ghost_float_127
+  - first:
+      213: 5816394648108966618
+    second: ghost_float_128
+  - first:
+      213: -3843751866500534515
+    second: ghost_float_129
+  - first:
+      213: -1156955658883710416
+    second: ghost_float_130
+  - first:
+      213: -1340328819950614686
+    second: ghost_float_131
+  - first:
+      213: -302090234251881038
+    second: ghost_float_132
+  - first:
+      213: -3153018508311881478
+    second: ghost_float_133
+  - first:
+      213: 7537187089560556107
+    second: ghost_float_134
+  - first:
+      213: -6894408316758621510
+    second: ghost_float_135
+  - first:
+      213: 7074713583763350583
+    second: ghost_float_136
+  - first:
+      213: -8960239880417065821
+    second: ghost_float_137
+  - first:
+      213: -5886458728222414668
+    second: ghost_float_138
+  - first:
+      213: -7176283108969931042
+    second: ghost_float_139
+  - first:
+      213: -1667071039073769803
+    second: ghost_float_140
+  - first:
+      213: 7778382074166457535
+    second: ghost_float_141
+  - first:
+      213: -6183036286714519878
+    second: ghost_float_142
+  - first:
+      213: -6427728629997390381
+    second: ghost_float_143
+  - first:
+      213: -8414753120056414236
+    second: ghost_float_144
+  - first:
+      213: 3602030168836608628
+    second: ghost_float_145
+  - first:
+      213: -6346793146045525990
+    second: ghost_float_146
+  - first:
+      213: 6377340610575967694
+    second: ghost_float_147
+  - first:
+      213: -4592300798973465289
+    second: ghost_float_148
+  - first:
+      213: -5720678149410090018
+    second: ghost_float_149
+  - first:
+      213: 6025381097658110877
+    second: ghost_float_150
+  - first:
+      213: -7921567746533360675
+    second: ghost_float_151
+  - first:
+      213: -6028725021811769929
+    second: ghost_float_152
+  - first:
+      213: -2108957636048179873
+    second: ghost_float_153
+  - first:
+      213: -241691342004778714
+    second: ghost_float_154
+  - first:
+      213: -615906632112347091
+    second: ghost_float_155
+  - first:
+      213: -4276850748286118967
+    second: ghost_float_156
+  - first:
+      213: 4683184625884844409
+    second: ghost_float_157
+  - first:
+      213: 825986982638080003
+    second: ghost_float_158
+  - first:
+      213: -7833067642562765188
+    second: ghost_float_159
+  - first:
+      213: -4648553513825936729
+    second: ghost_float_160
+  - first:
+      213: -1105725226244425031
+    second: ghost_float_161
+  - first:
+      213: 2169061896346388444
+    second: ghost_float_162
+  - first:
+      213: -3892263346761048566
+    second: ghost_float_163
+  - first:
+      213: 980286619233240090
+    second: ghost_float_164
+  - first:
+      213: -4589517726360850809
+    second: ghost_float_165
+  - first:
+      213: 4937905405410110244
+    second: ghost_float_166
+  - first:
+      213: 6636629200243699297
+    second: ghost_float_167
+  - first:
+      213: -7574666366315013275
+    second: ghost_float_168
+  - first:
+      213: 3760237466613237670
+    second: ghost_float_169
+  - first:
+      213: 7035873319481005411
+    second: ghost_float_170
+  - first:
+      213: -4474897209968063968
+    second: ghost_float_171
+  - first:
+      213: 4427835255076337717
+    second: ghost_float_172
+  - first:
+      213: -8527800505700972303
+    second: ghost_float_173
+  - first:
+      213: -4675672816626223035
+    second: ghost_float_174
+  - first:
+      213: 7476612441355284492
+    second: ghost_float_175
+  - first:
+      213: 4583501725111446669
+    second: ghost_float_176
+  - first:
+      213: 8008286671558574290
+    second: ghost_float_177
+  - first:
+      213: 8041354664545891253
+    second: ghost_float_178
+  - first:
+      213: -2280897143054940831
+    second: ghost_float_179
+  - first:
+      213: -7897029839569947841
+    second: ghost_float_180
+  - first:
+      213: 7366657164177312476
+    second: ghost_float_181
+  - first:
+      213: 6174269020632227058
+    second: ghost_float_182
+  - first:
+      213: 5404997873930231708
+    second: ghost_float_183
+  - first:
+      213: 8559063932328471320
+    second: ghost_float_184
+  - first:
+      213: -2021814073689123217
+    second: ghost_float_185
+  - first:
+      213: -806180681454890237
+    second: ghost_float_186
+  - first:
+      213: -1651016877334541241
+    second: ghost_float_187
+  - first:
+      213: -6474335235146791521
+    second: ghost_float_188
+  - first:
+      213: 1463822365072395543
+    second: ghost_float_189
+  - first:
+      213: 2102852080037728509
+    second: ghost_float_190
+  - first:
+      213: -3058566708618058893
+    second: ghost_float_191
+  - first:
+      213: 2606111860475452445
+    second: ghost_float_192
+  - first:
+      213: 6870693732749491031
+    second: ghost_float_193
+  - first:
+      213: 5805716694156292419
+    second: ghost_float_194
+  - first:
+      213: -252163762473324333
+    second: ghost_float_195
+  - first:
+      213: -5949500174586876277
+    second: ghost_float_196
+  - first:
+      213: 1116922511149606620
+    second: ghost_float_197
+  - first:
+      213: -3950929077842946340
+    second: ghost_float_198
+  - first:
+      213: 5600868523576165501
+    second: ghost_float_199
+  - first:
+      213: -9034901676714439336
+    second: ghost_float_200
+  - first:
+      213: -1855488326234882464
+    second: ghost_float_201
+  - first:
+      213: 3721875123602719629
+    second: ghost_float_202
+  - first:
+      213: 1654908866670619442
+    second: ghost_float_203
+  - first:
+      213: -8830811134322516264
+    second: ghost_float_204
+  - first:
+      213: -1471476043094808803
+    second: ghost_float_205
+  - first:
+      213: -4131508941199971170
+    second: ghost_float_206
+  - first:
+      213: 900655540288712661
+    second: ghost_float_207
+  - first:
+      213: -7859016724780988247
+    second: ghost_float_208
+  - first:
+      213: 754537781643932248
+    second: ghost_float_209
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ghost_float_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 439
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f10dbadf238f3e0800000000000000
+      internalID: -2019808367785009252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_float_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 438
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176fa7216c71f2cf0800000000000000
+      internalID: -274974912765299087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_float_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 437
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6dec61d763eb130800000000000000
+      internalID: 3584362264314959549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_float_3
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 436
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41eae85573dca9c20800000000000000
+      internalID: 3214106921624579604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_float_4
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 435
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48b043fce378adf0800000000000000
+      internalID: -168757524495812529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_float_5
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 434
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c61e34a14e775f0800000000000000
+      internalID: -758887210729509749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_float_6
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 433
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9d59de3af835ff0800000000000000
+      internalID: -48537236742481431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_float_7
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 336
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771f413d0acdd72a0800000000000000
+      internalID: -6737986884182150793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_float_8
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 335
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866180022718ab990800000000000000
+      internalID: -7369435513074739608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_float_9
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 334
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ea0a834b9c08a20800000000000000
+      internalID: 3062669522493287966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_float_10
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 333
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad93d2e56402ee00800000000000000
+      internalID: 1072424496911326634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_float_11
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 332
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbe3b7d9ee91c4a0800000000000000
+      internalID: -6574799253800752183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_float_12
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 331
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0347acf5a3d2dda00800000000000000
+      internalID: 782831638970790960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_float_13
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 330
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186bd3a9937157b40800000000000000
+      internalID: 5437277661288052353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_float_14
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 233
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8f700a98d30ad80800000000000000
+      internalID: -8241519656783316812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_float_15
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 233
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc48bf00a850d8030800000000000000
+      internalID: 3498458575816852687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_float_16
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 234
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c3ee6f521852990800000000000000
+      internalID: -7411375611711701873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_float_17
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 235
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7725017c9b12ee750800000000000000
+      internalID: 6336038807549268599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_float_18
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 236
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2630c5baf293f30a0800000000000000
+      internalID: -6899733227207130270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_float_19
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 237
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98c8cc807f219380800000000000000
+      internalID: -8966333222673135461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_float_20
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 238
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3753271817b2caeb0800000000000000
+      internalID: -4707339744005966477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_float_21
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 143
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56dcd86dc55d18d50800000000000000
+      internalID: 6737901112236297573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_float_22
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 144
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14bff2acff02c1980800000000000000
+      internalID: -8566936108184634559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_float_23
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 145
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ca1ed7f02055c00800000000000000
+      internalID: 888618767035247616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_float_24
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 146
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7773b528ffcbdfc90800000000000000
+      internalID: -7134338429095299209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_float_25
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 147
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8886ba7312b39e0800000000000000
+      internalID: -1640681116263741234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_float_26
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 148
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03a078f24948bc00800000000000000
+      internalID: 916563076154696462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_float_27
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 149
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c680f0f803fa700800000000000000
+      internalID: 553714670180527179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_float_28
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 54
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591ec399f1b885430800000000000000
+      internalID: 3771917655753941397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_float_29
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 55
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e9c2671e67f72a30800000000000000
+      internalID: 4190590030502349285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
