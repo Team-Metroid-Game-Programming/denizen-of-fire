@@ -49,6 +49,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnLanded()
     {
+        startFall = false;
         if (!Input.GetButton("Jump"))
         {
             canJump = true;
