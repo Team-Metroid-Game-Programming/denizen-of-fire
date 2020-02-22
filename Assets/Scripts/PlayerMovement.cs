@@ -8,7 +8,10 @@ public class PlayerMovement : MonoBehaviour
     private Animator animator;
     private Rigidbody2D rigidbod;
     private float horizontalMovement = 0f;
+    private float verticalDirection = 0f;
     private float jumpStartTime = 0;
+
+    public bool isCrouching { get; private set; } = false;
 
     // jump flags
     private bool canJump = true;
@@ -62,14 +65,16 @@ public class PlayerMovement : MonoBehaviour
     private void HandleMovement()
     {
         horizontalMovement = Input.GetAxisRaw("Horizontal");
+        verticalDirection = Input.GetAxisRaw("Vertical");
     }
 
     private void HandleMovementPhysics()
     {
-        var totalSpeed = horizontalMovement * movementSpeed;
-        Debug.Log(totalSpeed);
+        isCrouching = verticalDirection < 0;
+        var totalSpeed = !isCrouching ? horizontalMovement * movementSpeed : 0;
         characterController.Move(totalSpeed, false);
         animator.SetFloat("XSpeed", Mathf.Abs(totalSpeed));
+        animator.SetBool("Crouching", isCrouching);
     }
 
     private void HandleJump()

@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Crouch
+  m_Name: Crouch_Up
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -22,14 +22,14 @@ AnimationClip:
     - time: 0
       value: {fileID: -3918816962239214618, guid: 3b3fa273b71a032bb8163b0801010f52,
         type: 3}
-    - time: 0.06666667
+    - time: 0.0625
       value: {fileID: -8881731609499398225, guid: 3b3fa273b71a032bb8163b0801010f52,
         type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
-  m_SampleRate: 60
+  m_SampleRate: 16
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -51,7 +51,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.083333336
+    m_StopTime: 0.125
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
