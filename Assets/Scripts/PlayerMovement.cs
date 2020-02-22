@@ -79,8 +79,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void HandleJump()
     {
-        instantDrop = false;
-
         animator.SetFloat("YSpeed", rigidbod.velocity.y);
         animator.SetBool("Grounded", characterController.grounded);
         if (Input.GetButtonDown("Jump"))
@@ -104,7 +102,7 @@ public class PlayerMovement : MonoBehaviour
         // when player relases space
         if (Input.GetButtonUp("Jump"))
         {
-            if (characterController.grounded)
+            if (characterController.grounded && rigidbod.velocity.y == 0)
             {
                 // keep can jump disabled until player releases jump from the ground
                 // this keeps the player from repeatedly jumping if holding jump button
@@ -143,6 +141,7 @@ public class PlayerMovement : MonoBehaviour
             }
             rigidbod.AddForce(new Vector2(0f, -initalJumpForce));
             startFall = false;
+            instantDrop = false;
             canJump = false;
             animator.SetBool("Jumping", false);
         }

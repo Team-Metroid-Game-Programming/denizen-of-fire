@@ -73,8 +73,6 @@ public class PlayerAttack : MonoBehaviour
             meditating = false;
         }
 
-        Debug.Log(meditating);
-
         animator.SetBool("Meditating", meditating);
     }
 }
