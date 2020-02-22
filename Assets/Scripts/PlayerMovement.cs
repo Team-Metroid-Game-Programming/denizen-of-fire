@@ -8,7 +8,10 @@ public class PlayerMovement : MonoBehaviour
     private Animator animator;
     private Rigidbody2D rigidbod;
     private float horizontalMovement = 0f;
+    private float verticalDirection = 0f;
     private float jumpStartTime = 0;
+
+    public bool isCrouching { get; private set; } = false;
 
     // jump flags
     private bool canJump = true;
@@ -46,6 +49,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnLanded()
     {
+        startFall = false;
         if (!Input.GetButton("Jump"))
         {
             canJump = true;
@@ -62,20 +66,20 @@ public class PlayerMovement : MonoBehaviour
     private void HandleMovement()
     {
         horizontalMovement = Input.GetAxisRaw("Horizontal");
+        verticalDirection = Input.GetAxisRaw("Vertical");
     }
 
     private void HandleMovementPhysics()
     {
-        var totalSpeed = horizontalMovement * movementSpeed;
-        Debug.Log(totalSpeed);
+        isCrouching = verticalDirection < 0;
+        var totalSpeed = !isCrouching ? horizontalMovement * movementSpeed : 0;
         characterController.Move(totalSpeed, false);
         animator.SetFloat("XSpeed", Mathf.Abs(totalSpeed));
+        animator.SetBool("Crouching", isCrouching);
     }
 
     private void HandleJump()
     {
-        instantDrop = false;
-
         animator.SetFloat("YSpeed", rigidbod.velocity.y);
         animator.SetBool("Grounded", characterController.grounded);
         if (Input.GetButtonDown("Jump"))
@@ -99,7 +103,7 @@ public class PlayerMovement : MonoBehaviour
         // when player relases space
         if (Input.GetButtonUp("Jump"))
         {
-            if (characterController.grounded)
+            if (characterController.grounded && rigidbod.velocity.y == 0)
             {
                 // keep can jump disabled until player releases jump from the ground
                 // this keeps the player from repeatedly jumping if holding jump button
@@ -138,6 +142,7 @@ public class PlayerMovement : MonoBehaviour
             }
             rigidbod.AddForce(new Vector2(0f, -initalJumpForce));
             startFall = false;
+            instantDrop = false;
             canJump = false;
             animator.SetBool("Jumping", false);
         }

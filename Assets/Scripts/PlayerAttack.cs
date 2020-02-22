@@ -14,7 +14,10 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private string kickButton = "Fire2";
     [SerializeField] private float kickDamage = 5.0f;
 
+    [SerializeField] private string meditateButton = "Fire3";
+
     private bool isPunch1 = true;
+    private bool meditating = false;
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +32,7 @@ public class PlayerAttack : MonoBehaviour
     {
         HandlePunch();
         HandleKick();
+        HandleMeditate();
     }
 
     private void HandlePunch()
@@ -55,5 +59,20 @@ public class PlayerAttack : MonoBehaviour
         {
             animator.SetTrigger("Kick");
         }
+    }
+
+    private void HandleMeditate()
+    {
+        if (playerMovement.isCrouching && Input.GetButtonDown(meditateButton))
+        {
+            meditating = true;
+        }
+
+        if (meditating && (!playerMovement.isCrouching || Input.GetButtonUp(meditateButton)))
+        {
+            meditating = false;
+        }
+
+        animator.SetBool("Meditating", meditating);
     }
 }
