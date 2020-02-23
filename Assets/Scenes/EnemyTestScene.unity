@@ -354,7 +354,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 425262845}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.63, y: 0.92, z: 0}
+  m_LocalPosition: {x: 3.55, y: 0, z: 0}
   m_LocalScale: {x: 1.279091, y: 1.279091, z: 1.279091}
   m_Children: []
   m_Father: {fileID: 0}
@@ -394,8 +394,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -2.0758593, y: -0.25818002}
-  m_Size: {x: 2.2700315, y: 0.8586538}
+  m_Offset: {x: -2.0976925, y: 0.440248}
+  m_Size: {x: 2.3573737, y: 0.8150054}
   m_Direction: 1
 --- !u!70 &425262851
 CapsuleCollider2D:
@@ -410,8 +410,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -3.062842, y: 0.009218811}
-  m_Size: {x: 1.6428018, y: 1.4223365}
+  m_Offset: {x: -3.041008, y: 0.6858195}
+  m_Size: {x: 1.6840852, y: 1.2913938}
   m_Direction: 1
 --- !u!1 &853387269
 GameObject:
@@ -683,6 +683,7 @@ MonoBehaviour:
   punchDamage: 5
   kickButton: Fire2
   kickDamage: 5
+  meditateButton: Fire3
 --- !u!1 &1736465441
 GameObject:
   m_ObjectHideFlags: 0
