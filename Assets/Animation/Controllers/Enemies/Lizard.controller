@@ -403,8 +403,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  minDistance: 1
-  giveUpTime: 4
+  attackDistance: 3.5
+  giveUpTime: 2
 --- !u!1102 &7060220866411963068
 AnimatorState:
   serializedVersion: 5

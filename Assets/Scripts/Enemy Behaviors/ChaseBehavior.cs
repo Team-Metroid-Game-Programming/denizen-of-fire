@@ -8,7 +8,7 @@ public class ChaseBehavior : StateMachineBehaviour
     private EnemyController enemyController;
 
     [SerializeField] private float speed = 5f;
-    [SerializeField] private float minDistance = 1f;
+    [SerializeField] private float attackDistance = 1f;
     [SerializeField] private float giveUpTime = 4f;
 
     private bool reorient = true;
@@ -24,7 +24,7 @@ public class ChaseBehavior : StateMachineBehaviour
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateinfo, int layerindex)
     {
         // search for the player
-        var scan = enemyController.ScanForPlayer();
+        var scan = enemyController.ScanForPlayer(true);
         var playerHit = scan.Item1;
         var hitDirection = scan.Item2;
 
@@ -36,8 +36,9 @@ public class ChaseBehavior : StateMachineBehaviour
                 enemyController.Flip(); // flip around to face player
             }
 
+            Debug.Log(playerHit.distance);
             // attack player if she's getting up in the enemy's business
-            if (playerHit.distance <= minDistance)
+            if (playerHit.distance <= attackDistance)
             {
                 animator.SetTrigger("Attack");
                 reorient = false; // do not flip when transitioning

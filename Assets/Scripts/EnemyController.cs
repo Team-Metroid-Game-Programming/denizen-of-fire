@@ -13,11 +13,8 @@ public class EnemyController : MonoBehaviour
     [SerializeField] private GameObject patrolPoint1;
     [SerializeField] private GameObject patrolPoint2;
 
-    [SerializeField] private GameObject sightPointFront;
-    [SerializeField] private float forwardSightDistance;
-
-    [SerializeField] private GameObject sightPointBack;
-    [SerializeField] private float backSightDistance;
+    [SerializeField] private GameObject sightPoint;
+    [SerializeField] private float sightDistance;
 
     public GameObject[] patrolPoints
     {
@@ -55,27 +52,30 @@ public class EnemyController : MonoBehaviour
 
     }
 
-    public (RaycastHit2D, PlayerScanDirection) ScanForPlayer()
+    public (RaycastHit2D, PlayerScanDirection) ScanForPlayer(bool includeBehind)
     {
         var forwardCast = Physics2D.Raycast(
-            sightPointFront.transform.position,
+            sightPoint.transform.position,
             isFacingRight ? Vector2.right : Vector2.left,
-            forwardSightDistance,
+            sightDistance,
             LayerMask.GetMask("Player", "Platforms"));
 
-        var backwardCast = Physics2D.Raycast(
-            sightPointBack.transform.position,
-            isFacingRight ? Vector2.left : Vector2.right,
-            backSightDistance,
-            LayerMask.GetMask("Player", "Platforms"));
+        
 
         if (forwardCast.transform != null && forwardCast.transform.tag == "Player")
         {
             return (forwardCast, PlayerScanDirection.forward);
         }
-        else if (backwardCast.transform != null && backwardCast.transform.tag == "Player")
+        else if (includeBehind)
         {
-            return (backwardCast, PlayerScanDirection.backward);
+            var backwardCast = Physics2D.Raycast(
+            sightPoint.transform.position,
+            isFacingRight ? Vector2.left : Vector2.right,
+            sightDistance,
+            LayerMask.GetMask("Player", "Platforms"));
+
+            if (backwardCast.transform != null && backwardCast.transform.tag == "Player")
+                return (backwardCast, PlayerScanDirection.backward);
         }
 
         return default;

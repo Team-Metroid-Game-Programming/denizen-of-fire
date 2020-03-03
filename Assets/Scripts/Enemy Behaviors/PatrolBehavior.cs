@@ -32,7 +32,7 @@ public class PatrolBehavior : StateMachineBehaviour
         var tPointXDistance = Mathf.Abs(animator.transform.position.x - enemyController.targetPoint.x);
 
         // search for player
-        var scan = enemyController.ScanForPlayer();
+        var scan = enemyController.ScanForPlayer(false);
         var playerHit = scan.Item1;
 
         if (playerHit.transform != null)
