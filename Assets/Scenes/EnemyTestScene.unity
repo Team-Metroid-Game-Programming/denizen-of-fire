@@ -582,7 +582,7 @@ GameObject:
   - component: {fileID: 573978589}
   - component: {fileID: 573978588}
   - component: {fileID: 573978587}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundObst
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1620,12 +1620,6 @@ Transform:
   m_Father: {fileID: 1651681697}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2128604145 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2259931550391647077, guid: f09af4283a264604a8bbc719502199b7,
-    type: 3}
-  m_PrefabInstance: {fileID: 1618631048805609199}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1618631048805609199
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1665,19 +1659,9 @@ PrefabInstance:
       objectReference: {fileID: 2072609338}
     - target: {fileID: 1618631048950780395, guid: f09af4283a264604a8bbc719502199b7,
         type: 3}
-      propertyPath: sightDistance
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 1618631048950780395, guid: f09af4283a264604a8bbc719502199b7,
-        type: 3}
       propertyPath: sightPointBack
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 1618631048950780395, guid: f09af4283a264604a8bbc719502199b7,
-        type: 3}
-      propertyPath: sightPoint
-      value: 
-      objectReference: {fileID: 2128604145}
     - target: {fileID: 1618631048950780399, guid: f09af4283a264604a8bbc719502199b7,
         type: 3}
       propertyPath: m_LocalPosition.x

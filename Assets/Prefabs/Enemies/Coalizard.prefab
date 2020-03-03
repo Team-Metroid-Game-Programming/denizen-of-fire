@@ -107,7 +107,8 @@ GameObject:
   - component: {fileID: 1618631048950780398}
   - component: {fileID: 1618631048950780395}
   - component: {fileID: 1618631048950780396}
-  - component: {fileID: 1618631048950780397}
+  - component: {fileID: 5291313307911493169}
+  - component: {fileID: 3828380496654785567}
   m_Layer: 0
   m_Name: Coalizard
   m_TagString: Enemy
@@ -236,10 +237,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   patrolPoint1: {fileID: 0}
   patrolPoint2: {fileID: 0}
-  sightPointFront: {fileID: 2259931550391647077}
-  forwardSightDistance: 10
-  sightPointBack: {fileID: 0}
-  backSightDistance: 5
+  sightPoint: {fileID: 2259931550391647077}
+  sightDistance: 10
 --- !u!70 &1618631048950780396
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -250,13 +249,33 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_IsTrigger: 1
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
-  m_Offset: {x: -0.26978394, y: 0.44122902}
-  m_Size: {x: 2.5584476, y: 0.8407733}
+  m_Offset: {x: -0.51691216, y: 0.72002727}
+  m_Size: {x: 2.9220662, y: 1.398387}
   m_Direction: 1
---- !u!61 &1618631048950780397
+--- !u!250 &5291313307911493169
+PointEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618631048950779922}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 256
+  m_ForceMagnitude: 1000
+  m_ForceVariation: 0
+  m_DistanceScale: 10
+  m_ForceSource: 1
+  m_ForceTarget: 0
+  m_ForceMode: 0
+  m_Drag: 1
+  m_AngularDrag: 0
+--- !u!61 &3828380496654785567
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -269,7 +288,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1.1208956, y: 0.9561501}
+  m_Offset: {x: -0.5668919, y: 0.5667914}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -280,7 +299,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.602562, y: 0.41875613}
+  m_Size: {x: 2.2375202, y: 1.0871866}
   m_EdgeRadius: 0
 --- !u!1 &2259931550391647077
 GameObject:
