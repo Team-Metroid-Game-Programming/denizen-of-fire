@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 2299797442449193297}
   - component: {fileID: 2299797442449193298}
   - component: {fileID: 2743915062767322008}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Flaire
   m_TagString: Player
   m_Icon: {fileID: 0}
