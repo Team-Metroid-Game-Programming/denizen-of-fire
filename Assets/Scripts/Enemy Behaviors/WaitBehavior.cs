@@ -17,7 +17,7 @@ public class WaitBehavior : StateMachineBehaviour
         animator.SetFloat("Wait Time", timeLeft - Time.deltaTime);
 
         // search for enemy while waiting
-        var scan = enemyController.ScanForPlayer(false);
+        var scan = enemyController.ScanForPlayer(0.5f);
         var playerHit = scan.Item1;
 
         // start chasing if spotted

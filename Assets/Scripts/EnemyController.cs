@@ -52,7 +52,7 @@ public class EnemyController : MonoBehaviour
 
     }
 
-    public (RaycastHit2D, PlayerScanDirection) ScanForPlayer(bool includeBehind)
+    public (RaycastHit2D, PlayerScanDirection) ScanForPlayer(float scanBehindFactor = 1f)
     {
         var forwardCast = Physics2D.Raycast(
             sightPoint.transform.position,
@@ -60,21 +60,18 @@ public class EnemyController : MonoBehaviour
             sightDistance,
             LayerMask.GetMask("Player", "Platforms"));
 
+        var backwardCast = Physics2D.Raycast(
+            sightPoint.transform.position,
+            isFacingRight ? Vector2.left : Vector2.right,
+            sightDistance * scanBehindFactor,
+            LayerMask.GetMask("Player", "Platforms"));
+
         if (forwardCast.transform != null && forwardCast.transform.tag == "Player")
         {
             return (forwardCast, PlayerScanDirection.forward);
         }
-        else if (includeBehind)
-        {
-            var backwardCast = Physics2D.Raycast(
-            sightPoint.transform.position,
-            isFacingRight ? Vector2.left : Vector2.right,
-            sightDistance,
-            LayerMask.GetMask("Player", "Platforms"));
-
-            if (backwardCast.transform != null && backwardCast.transform.tag == "Player")
-                return (backwardCast, PlayerScanDirection.backward);
-        }
+        if (backwardCast.transform != null && backwardCast.transform.tag == "Player")
+            return (backwardCast, PlayerScanDirection.backward);
 
         return default;
     }

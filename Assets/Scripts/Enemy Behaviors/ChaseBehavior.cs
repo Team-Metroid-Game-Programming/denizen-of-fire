@@ -24,7 +24,7 @@ public class ChaseBehavior : StateMachineBehaviour
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateinfo, int layerindex)
     {
         // search for the player
-        var scan = enemyController.ScanForPlayer(true);
+        var scan = enemyController.ScanForPlayer();
         var playerHit = scan.Item1;
         var hitDirection = scan.Item2;
 
