@@ -918,9 +918,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 68
-        y: 4
+        y: 60
         width: 59
-        height: 64
+        height: 8
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -981,9 +981,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 198
-        y: 4
+        y: 60
         width: 57
-        height: 61
+        height: 5
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1002,9 +1002,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 325
-        y: 5
+        y: 116
         width: 58
-        height: 125
+        height: 14
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1023,9 +1023,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 451
-        y: 60
+        y: 116
         width: 60
-        height: 66
+        height: 10
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1035,6 +1035,111 @@ TextureImporter:
       bones: []
       spriteID: 9820c03492a1707f0800000000000000
       internalID: -646519256983534967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_death_34
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 4
+        width: 55
+        height: 2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba38fd7e122d0140800000000000000
+      internalID: 4687440301520337584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_death_35
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 4
+        width: 55
+        height: 2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484671c86d28cda00800000000000000
+      internalID: 782644293240579204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_death_36
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 60
+        width: 56
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6900fb02ef3c9f110800000000000000
+      internalID: 1295281864084226198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_death_37
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 60
+        width: 55
+        height: 2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e260133fce26710800000000000000
+      internalID: 1685169739833683551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_death_38
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 5
+        width: 1
+        height: 1
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcbf225ed26d5e070800000000000000
+      internalID: 8135143794520816591
       vertices: []
       indices: 
       edges: []

@@ -60,8 +60,6 @@ public class EnemyController : MonoBehaviour
             sightDistance,
             LayerMask.GetMask("Player", "Platforms"));
 
-        
-
         if (forwardCast.transform != null && forwardCast.transform.tag == "Player")
         {
             return (forwardCast, PlayerScanDirection.forward);
@@ -83,14 +81,25 @@ public class EnemyController : MonoBehaviour
 
     public void Flip()
     {
-        Vector3 theScale = animator.transform.localScale;
+        Vector3 theScale = transform.localScale;
         theScale.x *= -1;
-        animator.transform.localScale = theScale;
+        transform.localScale = theScale;
         isFacingRight = !isFacingRight;
     }
 
     public void MoveTowardsTargetPoint(float speed)
     {
-        transform.position = Vector2.MoveTowards(animator.transform.position, targetPoint, speed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, targetPoint, speed * Time.deltaTime);
+    }
+
+    public void Kill()
+    {
+        animator.SetTrigger("Die");
+        GetComponent<Rigidbody2D>().isKinematic = true;
+    }
+
+    public void Deactivate()
+    {
+        gameObject.SetActive(false);
     }
 }

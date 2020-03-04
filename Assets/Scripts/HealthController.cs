@@ -1,22 +1,29 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class HealthController : MonoBehaviour
 {
     [Range(0, 1000)] [SerializeField] public float health = 100f;
-    // Start is called before the first frame update
-    void Start()
+
+    public UnityEvent OnDeath;
+
+    private bool isDead = false;
+
+    void Awake()
     {
-        
+        if (OnDeath == null)
+            OnDeath = new UnityEvent();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (health == 0)
+        if (health == 0 && !isDead)
         {
-            Debug.Log("Dead");
+            OnDeath.Invoke();
+            isDead = true;
         }
     }
 

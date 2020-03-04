@@ -36,7 +36,6 @@ public class ChaseBehavior : StateMachineBehaviour
                 enemyController.Flip(); // flip around to face player
             }
 
-            Debug.Log(playerHit.distance);
             // attack player if she's getting up in the enemy's business
             if (playerHit.distance <= attackDistance)
             {
