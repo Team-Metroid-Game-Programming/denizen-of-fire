@@ -1,0 +1,1096 @@
+fileFormatVersion: 2
+guid: b4b282cac0dd9d146891892898e6ee72
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8685394190914881382
+    second: coalizard_lick_attack_0
+  - first:
+      213: -9218753542878597078
+    second: coalizard_lick_attack_1
+  - first:
+      213: -7511842824605975639
+    second: coalizard_lick_attack_2
+  - first:
+      213: 4280874483815224440
+    second: coalizard_lick_attack_3
+  - first:
+      213: 8416796700195451501
+    second: coalizard_lick_attack_4
+  - first:
+      213: -5662735431334472502
+    second: coalizard_lick_attack_5
+  - first:
+      213: 330851765845099275
+    second: coalizard_lick_attack_6
+  - first:
+      213: 9042396547969932916
+    second: coalizard_lick_attack_7
+  - first:
+      213: 6879161170266137889
+    second: coalizard_lick_attack_8
+  - first:
+      213: -7589675571745220302
+    second: coalizard_lick_attack_9
+  - first:
+      213: -8005037327672228607
+    second: coalizard_lick_attack_10
+  - first:
+      213: 1610096272457767655
+    second: coalizard_lick_attack_11
+  - first:
+      213: -225274383943150823
+    second: coalizard_lick_attack_12
+  - first:
+      213: -9159848123337536926
+    second: coalizard_lick_attack_13
+  - first:
+      213: 631896255580102979
+    second: coalizard_lick_attack_14
+  - first:
+      213: 4983411213264111776
+    second: coalizard_lick_attack_15
+  - first:
+      213: -704289968549542099
+    second: coalizard_lick_attack_16
+  - first:
+      213: -5285307797598185638
+    second: coalizard_lick_attack_17
+  - first:
+      213: -8932725265695501012
+    second: coalizard_lick_attack_18
+  - first:
+      213: 3919824058840207787
+    second: coalizard_lick_attack_19
+  - first:
+      213: 6256347201421986096
+    second: coalizard_lick_attack_20
+  - first:
+      213: -5407178572023951621
+    second: coalizard_lick_attack_21
+  - first:
+      213: 6856556630911792554
+    second: coalizard_lick_attack_22
+  - first:
+      213: -5368519864661100267
+    second: coalizard_lick_attack_23
+  - first:
+      213: 620432266588860203
+    second: coalizard_lick_attack_24
+  - first:
+      213: 7759894738236761574
+    second: coalizard_lick_attack_25
+  - first:
+      213: 5788792722134043524
+    second: coalizard_lick_attack_26
+  - first:
+      213: 2199609457104819738
+    second: coalizard_lick_attack_27
+  - first:
+      213: 5104017522324760908
+    second: coalizard_lick_attack_28
+  - first:
+      213: -8967577940445521548
+    second: coalizard_lick_attack_29
+  - first:
+      213: -1740504907085769510
+    second: coalizard_lick_attack_30
+  - first:
+      213: 6553250219368019909
+    second: coalizard_lick_attack_31
+  - first:
+      213: 2103043286628781643
+    second: coalizard_lick_attack_32
+  - first:
+      213: -5601787872739230063
+    second: coalizard_lick_attack_33
+  - first:
+      213: 6682372643616715663
+    second: coalizard_lick_attack_34
+  - first:
+      213: 2885845144853770773
+    second: coalizard_lick_attack_35
+  - first:
+      213: -2477559163574166396
+    second: coalizard_lick_attack_0
+  - first:
+      213: -2952005906170504287
+    second: coalizard_lick_attack_1
+  - first:
+      213: -1678103010129116963
+    second: coalizard_lick_attack_2
+  - first:
+      213: 679672350497770480
+    second: coalizard_lick_attack_3
+  - first:
+      213: -2967427515690473306
+    second: coalizard_lick_attack_4
+  - first:
+      213: -5379202165842450161
+    second: coalizard_lick_attack_5
+  - first:
+      213: -3169556765343895662
+    second: coalizard_lick_attack_6
+  - first:
+      213: 6578046882096864669
+    second: coalizard_lick_attack_7
+  - first:
+      213: -670087780325380684
+    second: coalizard_lick_attack_8
+  - first:
+      213: 372409224164749622
+    second: coalizard_lick_attack_9
+  - first:
+      213: 1273938230790823416
+    second: coalizard_lick_attack_10
+  - first:
+      213: 5401849510099579714
+    second: coalizard_lick_attack_11
+  - first:
+      213: -7219727006152917956
+    second: coalizard_lick_attack_12
+  - first:
+      213: -4110520892922175394
+    second: coalizard_lick_attack_13
+  - first:
+      213: -6945659078724263014
+    second: coalizard_lick_attack_14
+  - first:
+      213: 4827118276677147627
+    second: coalizard_lick_attack_15
+  - first:
+      213: -7802401736227261871
+    second: coalizard_lick_attack_16
+  - first:
+      213: -3396432325736023409
+    second: coalizard_lick_attack_17
+  - first:
+      213: 4989147374507528767
+    second: coalizard_lick_attack_18
+  - first:
+      213: -4353732797361715700
+    second: coalizard_lick_attack_19
+  - first:
+      213: 3315518743264056525
+    second: coalizard_lick_attack_20
+  - first:
+      213: 1742839961289558880
+    second: coalizard_lick_attack_21
+  - first:
+      213: -165783305070398066
+    second: coalizard_lick_attack_22
+  - first:
+      213: 6218038480603689460
+    second: coalizard_lick_attack_23
+  - first:
+      213: 5569249843197182044
+    second: coalizard_lick_attack_24
+  - first:
+      213: 8348295959292736501
+    second: coalizard_lick_attack_25
+  - first:
+      213: -3077262718878851077
+    second: coalizard_lick_attack_26
+  - first:
+      213: -5632506193737406339
+    second: coalizard_lick_attack_27
+  - first:
+      213: 722847849030293736
+    second: coalizard_lick_attack_28
+  - first:
+      213: -2327795592658704834
+    second: coalizard_lick_attack_29
+  - first:
+      213: -5200928736837016770
+    second: coalizard_lick_attack_30
+  - first:
+      213: 5068400854011985245
+    second: coalizard_lick_attack_31
+  - first:
+      213: -6238765177784785170
+    second: coalizard_lick_attack_32
+  - first:
+      213: -5401524051717899962
+    second: coalizard_lick_attack_33
+  - first:
+      213: 8651078595683752342
+    second: coalizard_lick_attack_34
+  - first:
+      213: 2225320584891129762
+    second: coalizard_lick_attack_35
+  - first:
+      213: -6860109383066946453
+    second: coalizard_lick_attack_36
+  - first:
+      213: -215519366368637944
+    second: coalizard_lick_attack_37
+  - first:
+      213: 9065746822858833455
+    second: coalizard_lick_attack_38
+  - first:
+      213: -8296923247854689763
+    second: coalizard_lick_attack_39
+  - first:
+      213: -654283709770623616
+    second: coalizard_lick_attack_40
+  - first:
+      213: 6666777186303836339
+    second: coalizard_lick_attack_41
+  - first:
+      213: -4424460385495117956
+    second: coalizard_lick_attack_42
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: coalizard_lick_attack_0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 452
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48cd5214111fd9dd0800000000000000
+      internalID: -2477559163574166396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_lick_attack_1
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 452
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab1adbc44e5807d0800000000000000
+      internalID: -2952005906170504287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_lick_attack_2
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 452
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd08db8043e26b8e0800000000000000
+      internalID: -1678103010129116963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_lick_attack_3
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 452
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb0317d66eae6900800000000000000
+      internalID: 679672350497770480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_lick_attack_4
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 396
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8ac86856491d6d0800000000000000
+      internalID: -2967427515690473306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_lick_attack_5
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 396
+        width: 64
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5156877, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09e2f1612c3955b0800000000000000
+      internalID: -5379202165842450161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_lick_attack_6
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 396
+        width: 70
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5571433, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29fad3a3ae87304d0800000000000000
+      internalID: -3169556765343895662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_lick_attack_7
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 396
+        width: 83
+        height: 22
+      alignment: 9
+      pivot: {x: 0.6267483, y: -0.0009058172}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ddf3b89cae94b50800000000000000
+      internalID: 6578046882096864669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_lick_attack_8
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 340
+        width: 89
+        height: 22
+      alignment: 9
+      pivot: {x: 0.6516854, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd206dc6be53b6f0800000000000000
+      internalID: -670087780325380684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_lick_attack_9
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 340
+        width: 97
+        height: 22
+      alignment: 9
+      pivot: {x: 0.6804879, y: 0.0000013871627}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6313b6d57301b2500800000000000000
+      internalID: 372409224164749622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_lick_attack_10
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 340
+        width: 105
+        height: 22
+      alignment: 9
+      pivot: {x: 0.7048712, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd93104210fda110800000000000000
+      internalID: 1273938230790823416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_lick_attack_11
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 340
+        width: 105
+        height: 22
+      alignment: 9
+      pivot: {x: 0.7048078, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2437a9b528937fa40800000000000000
+      internalID: 5401849510099579714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_lick_attack_12
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 284
+        width: 105
+        height: 22
+      alignment: 9
+      pivot: {x: 0.7048191, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3cf5f62a806ecb90800000000000000
+      internalID: -7219727006152917956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_lick_attack_13
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 284
+        width: 105
+        height: 22
+      alignment: 9
+      pivot: {x: 0.7047882, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e506d8fb60f74f6c0800000000000000
+      internalID: -4110520892922175394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_lick_attack_14
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 284
+        width: 105
+        height: 22
+      alignment: 9
+      pivot: {x: 0.704786, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a936ca91edf0c9f90800000000000000
+      internalID: -6945659078724263014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_lick_attack_15
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 284
+        width: 105
+        height: 22
+      alignment: 9
+      pivot: {x: 0.704861, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb132a5f7e5df240800000000000000
+      internalID: 4827118276677147627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_lick_attack_16
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 228
+        width: 97
+        height: 22
+      alignment: 9
+      pivot: {x: 0.68041235, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1527845b5fc48b390800000000000000
+      internalID: -7802401736227261871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_lick_attack_17
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 228
+        width: 89
+        height: 22
+      alignment: 9
+      pivot: {x: 0.65168554, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ab9d87bc27dd0d0800000000000000
+      internalID: -3396432325736023409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_lick_attack_18
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 228
+        width: 83
+        height: 22
+      alignment: 9
+      pivot: {x: 0.6265064, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32189d7a130d3540800000000000000
+      internalID: 4989147374507528767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_lick_attack_19
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 228
+        width: 70
+        height: 22
+      alignment: 9
+      pivot: {x: 0.55714375, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06894e761f6493c0800000000000000
+      internalID: -4353732797361715700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_lick_attack_20
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 172
+        width: 64
+        height: 22
+      alignment: 9
+      pivot: {x: 0.515625, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4576a0bb6130e20800000000000000
+      internalID: 3315518743264056525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_lick_attack_21
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 172
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b0509f5bfcf2810800000000000000
+      internalID: 1742839961289558880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_lick_attack_22
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 172
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85b69f56f403bdf0800000000000000
+      internalID: -165783305070398066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_lick_attack_23
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 172
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1b714bd09ea4650800000000000000
+      internalID: 6218038480603689460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_lick_attack_24
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 116
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c500b29a933f94d40800000000000000
+      internalID: 5569249843197182044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_lick_attack_25
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 116
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3f87d91fa1bd370800000000000000
+      internalID: 8348295959292736501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_lick_attack_26
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 116
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff5ca87cdd5b45d0800000000000000
+      internalID: -3077262718878851077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_lick_attack_27
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 116
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d782817857155d1b0800000000000000
+      internalID: -5632506193737406339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_lick_attack_28
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 60
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e81b14f942180a00800000000000000
+      internalID: 722847849030293736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_lick_attack_29
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 60
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36abdddd3202bfd0800000000000000
+      internalID: -2327795592658704834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_lick_attack_30
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 60
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3365ba9ed692d7b0800000000000000
+      internalID: -5200928736837016770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_lick_attack_31
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 60
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5dbba229b3965640800000000000000
+      internalID: 5068400854011985245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_lick_attack_32
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 4
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6af0d00247b69a0800000000000000
+      internalID: -6238765177784785170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_lick_attack_33
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 4
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64930a35e7ee905b0800000000000000
+      internalID: -5401524051717899962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_lick_attack_34
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 4
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69917bbb52ece0870800000000000000
+      internalID: 8651078595683752342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_lick_attack_35
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 4
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2afdccd184de1ee10800000000000000
+      internalID: 2225320584891129762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

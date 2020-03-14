@@ -1,0 +1,1078 @@
+fileFormatVersion: 2
+guid: 6f9083b3dbf0c334c9fe335764cd78a6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6555864291721139278
+    second: coalizard_idle_0
+  - first:
+      213: -9173020414616508435
+    second: coalizard_idle_1
+  - first:
+      213: 5542504299824124066
+    second: coalizard_idle_2
+  - first:
+      213: 8760804280247942606
+    second: coalizard_idle_3
+  - first:
+      213: 3704259982482366959
+    second: coalizard_idle_4
+  - first:
+      213: 101788319543987148
+    second: coalizard_idle_5
+  - first:
+      213: 4340699643503588668
+    second: coalizard_idle_6
+  - first:
+      213: -6184258404307128173
+    second: coalizard_idle_7
+  - first:
+      213: -8501742401771283464
+    second: coalizard_idle_8
+  - first:
+      213: 5262380574333328853
+    second: coalizard_idle_9
+  - first:
+      213: -1801267241020655068
+    second: coalizard_idle_10
+  - first:
+      213: 9179373048308088027
+    second: coalizard_idle_11
+  - first:
+      213: -3283327776224148382
+    second: coalizard_idle_12
+  - first:
+      213: 1243345099618951321
+    second: coalizard_idle_13
+  - first:
+      213: 2485536873967181612
+    second: coalizard_idle_14
+  - first:
+      213: -6367655088001642044
+    second: coalizard_idle_15
+  - first:
+      213: -5503821858457212558
+    second: coalizard_idle_16
+  - first:
+      213: -4841816561898531580
+    second: coalizard_idle_17
+  - first:
+      213: -7289658496473284687
+    second: coalizard_idle_18
+  - first:
+      213: 6604288204223707111
+    second: coalizard_idle_19
+  - first:
+      213: 6676632764978010470
+    second: coalizard_idle_20
+  - first:
+      213: -3954314509566546403
+    second: coalizard_idle_21
+  - first:
+      213: -7708805008091061617
+    second: coalizard_idle_22
+  - first:
+      213: 2433853718355865329
+    second: coalizard_idle_23
+  - first:
+      213: -3316971932659366367
+    second: coalizard_idle_24
+  - first:
+      213: 4944228992918106812
+    second: coalizard_idle_25
+  - first:
+      213: -5677105196981636722
+    second: coalizard_idle_26
+  - first:
+      213: -5995165206085995433
+    second: coalizard_idle_27
+  - first:
+      213: 7449516673149609673
+    second: coalizard_idle_28
+  - first:
+      213: -3066963964079106336
+    second: coalizard_idle_29
+  - first:
+      213: -4052875440179554369
+    second: coalizard_idle_30
+  - first:
+      213: -6265740875639823491
+    second: coalizard_idle_31
+  - first:
+      213: 4755277294170258130
+    second: coalizard_idle_32
+  - first:
+      213: -2991515469272483308
+    second: coalizard_idle_33
+  - first:
+      213: -2834489766301261612
+    second: coalizard_idle_34
+  - first:
+      213: 5199528148026824004
+    second: coalizard_idle_35
+  - first:
+      213: -8493488198117586391
+    second: coalizard_idle_0
+  - first:
+      213: -5543638680517802138
+    second: coalizard_idle_1
+  - first:
+      213: 8195611185853373485
+    second: coalizard_idle_2
+  - first:
+      213: 7252560783795788493
+    second: coalizard_idle_3
+  - first:
+      213: -3299065484013572434
+    second: coalizard_idle_4
+  - first:
+      213: 8156346486339872872
+    second: coalizard_idle_5
+  - first:
+      213: -8457751813619991819
+    second: coalizard_idle_6
+  - first:
+      213: -2051441535868210753
+    second: coalizard_idle_7
+  - first:
+      213: -8584345418919819372
+    second: coalizard_idle_8
+  - first:
+      213: -6187192268642945292
+    second: coalizard_idle_9
+  - first:
+      213: -5255119896471561095
+    second: coalizard_idle_10
+  - first:
+      213: 3262764916369470786
+    second: coalizard_idle_11
+  - first:
+      213: -8361775959488216473
+    second: coalizard_idle_12
+  - first:
+      213: -1696680317600236156
+    second: coalizard_idle_13
+  - first:
+      213: 8933045625231016587
+    second: coalizard_idle_14
+  - first:
+      213: 7131388897951920511
+    second: coalizard_idle_15
+  - first:
+      213: -532558294189795580
+    second: coalizard_idle_16
+  - first:
+      213: -7090512191023255601
+    second: coalizard_idle_17
+  - first:
+      213: -2275400985281052574
+    second: coalizard_idle_18
+  - first:
+      213: -8107500535457742809
+    second: coalizard_idle_19
+  - first:
+      213: -1858659161740556783
+    second: coalizard_idle_20
+  - first:
+      213: 8715326451436970103
+    second: coalizard_idle_21
+  - first:
+      213: 8478571580990568359
+    second: coalizard_idle_22
+  - first:
+      213: 2135534439541400913
+    second: coalizard_idle_23
+  - first:
+      213: -5565895130874602276
+    second: coalizard_idle_24
+  - first:
+      213: -8193412453270176229
+    second: coalizard_idle_25
+  - first:
+      213: 6678831724245570268
+    second: coalizard_idle_26
+  - first:
+      213: 5195965975466173228
+    second: coalizard_idle_27
+  - first:
+      213: 584635130842079238
+    second: coalizard_idle_28
+  - first:
+      213: 5727390241031057056
+    second: coalizard_idle_29
+  - first:
+      213: -561639825028587386
+    second: coalizard_idle_30
+  - first:
+      213: 1537202731757194108
+    second: coalizard_idle_31
+  - first:
+      213: -107564789966450438
+    second: coalizard_idle_32
+  - first:
+      213: 1661322731226938801
+    second: coalizard_idle_33
+  - first:
+      213: -1928341624155364669
+    second: coalizard_idle_34
+  - first:
+      213: -91779407080997288
+    second: coalizard_idle_35
+  - first:
+      213: 4273136200178436024
+    second: coalizard_idle_36
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: coalizard_idle_0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 452
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a8a37fb71112a80800000000000000
+      internalID: -8493488198117586391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_idle_1
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 452
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6670f94ddf90113b0800000000000000
+      internalID: -5543638680517802138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_idle_2
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 452
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c120a83f8acb170800000000000000
+      internalID: 8195611185853373485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_idle_3
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 452
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca931e6b9546a460800000000000000
+      internalID: 7252560783795788493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_idle_4
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 396
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae6e96eb6d5732d0800000000000000
+      internalID: -3299065484013572434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_idle_5
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 396
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8682b474ae9213170800000000000000
+      internalID: 8156346486339872872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_idle_6
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 396
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fab3ce598700aa80800000000000000
+      internalID: -8457751813619991819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_idle_7
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 396
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1f719cac0d783e0800000000000000
+      internalID: -2051441535868210753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_idle_8
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 340
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4974804c2574ed880800000000000000
+      internalID: -8584345418919819372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_idle_9
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 340
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f67e7ea96da22aa0800000000000000
+      internalID: -6187192268642945292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_idle_10
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 340
+        width: 64
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5156255, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c99b60c401217b0800000000000000
+      internalID: -5255119896471561095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_idle_11
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 340
+        width: 70
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5571433, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2453fc1976ba74d20800000000000000
+      internalID: 3262764916369470786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_idle_12
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 284
+        width: 72
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5694444, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762cd43411105fb80800000000000000
+      internalID: -8361775959488216473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_idle_13
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 284
+        width: 70
+        height: 22
+      alignment: 9
+      pivot: {x: 0.557, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d7a049d3e2478e0800000000000000
+      internalID: -1696680317600236156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_idle_14
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 284
+        width: 64
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5156255, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b828046baad88fb70800000000000000
+      internalID: 8933045625231016587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_idle_15
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 284
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71b6914b68c7f260800000000000000
+      internalID: 7131388897951920511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_idle_16
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 228
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40711a49d09fb98f0800000000000000
+      internalID: -532558294189795580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_idle_17
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 228
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf6b7abab0799d90800000000000000
+      internalID: -7090512191023255601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_idle_18
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 228
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260cfb60cd62c60e0800000000000000
+      internalID: -2275400985281052574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_idle_19
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 228
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72080c7e73f5c7f80800000000000000
+      internalID: -8107500535457742809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_idle_20
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 172
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116cde90757b436e0800000000000000
+      internalID: -1858659161740556783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_idle_21
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 172
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77067775b3f03f870800000000000000
+      internalID: 8715326451436970103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_idle_22
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 172
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a73aa77eefe9a570800000000000000
+      internalID: 8478571580990568359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_idle_23
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 172
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1556a7a1241f2ad10800000000000000
+      internalID: 2135534439541400913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_idle_24
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 116
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc942b2ed7f1c2b0800000000000000
+      internalID: -5565895130874602276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_idle_25
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 116
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1eb198c8c62b4e80800000000000000
+      internalID: -8193412453270176229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_idle_26
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 116
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd25446311affac50800000000000000
+      internalID: 6678831724245570268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_idle_27
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 116
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c236da87687cb1840800000000000000
+      internalID: 5195965975466173228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_idle_28
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 60
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6006e01dd8a0d1800800000000000000
+      internalID: 584635130842079238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_idle_29
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 60
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aee1b64417cb7f40800000000000000
+      internalID: 5727390241031057056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_idle_30
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 60
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68065790e87a438f0800000000000000
+      internalID: -561639825028587386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_idle_31
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 60
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7bc5267dbd355510800000000000000
+      internalID: 1537202731757194108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_idle_32
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 4
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0d5b7b46ad18ef0800000000000000
+      internalID: -107564789966450438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_idle_33
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 4
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd3014d8343e0710800000000000000
+      internalID: 1661322731226938801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_idle_34
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 4
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2ae9672872d35e0800000000000000
+      internalID: -1928341624155364669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_idle_35
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 4
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ebd339d1fe9bef0800000000000000
+      internalID: -91779407080997288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1210 @@
+fileFormatVersion: 2
+guid: 1f745795000916e45a919e89c077601c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8212193695118068660
+    second: coalizard_walk_0
+  - first:
+      213: 1857265956502965026
+    second: coalizard_walk_1
+  - first:
+      213: 2062123280618185366
+    second: coalizard_walk_2
+  - first:
+      213: -9063741134970304230
+    second: coalizard_walk_3
+  - first:
+      213: -40940841489038122
+    second: coalizard_walk_4
+  - first:
+      213: -2013074563386945223
+    second: coalizard_walk_5
+  - first:
+      213: 3247224354869001409
+    second: coalizard_walk_6
+  - first:
+      213: 5068225801288147865
+    second: coalizard_walk_7
+  - first:
+      213: -6258302977335470689
+    second: coalizard_walk_8
+  - first:
+      213: 9124751845484325844
+    second: coalizard_walk_9
+  - first:
+      213: 3396951273889999070
+    second: coalizard_walk_10
+  - first:
+      213: 572012378806565130
+    second: coalizard_walk_11
+  - first:
+      213: 1239827892219759364
+    second: coalizard_walk_12
+  - first:
+      213: -504360152700637606
+    second: coalizard_walk_13
+  - first:
+      213: 8401636542395202410
+    second: coalizard_walk_14
+  - first:
+      213: 6093129587331558958
+    second: coalizard_walk_15
+  - first:
+      213: -7252676937767414992
+    second: coalizard_walk_16
+  - first:
+      213: -3725131256606996865
+    second: coalizard_walk_17
+  - first:
+      213: 789653184235004901
+    second: coalizard_walk_18
+  - first:
+      213: -1715603651328873287
+    second: coalizard_walk_19
+  - first:
+      213: -1154883669444650999
+    second: coalizard_walk_20
+  - first:
+      213: 6151629205407775445
+    second: coalizard_walk_21
+  - first:
+      213: -105941837181003713
+    second: coalizard_walk_22
+  - first:
+      213: 5628478124059442476
+    second: coalizard_walk_23
+  - first:
+      213: 4507251483143354714
+    second: coalizard_walk_24
+  - first:
+      213: 6905884029875034384
+    second: coalizard_walk_25
+  - first:
+      213: -9039973024261440450
+    second: coalizard_walk_26
+  - first:
+      213: -4478929275746918089
+    second: coalizard_walk_27
+  - first:
+      213: 1553146120448185518
+    second: coalizard_walk_28
+  - first:
+      213: -2244400324492988431
+    second: coalizard_walk_29
+  - first:
+      213: 1940463928935362242
+    second: coalizard_walk_30
+  - first:
+      213: -3038236128796002267
+    second: coalizard_walk_31
+  - first:
+      213: -4914336303168493619
+    second: coalizard_walk_32
+  - first:
+      213: 2104601776060954444
+    second: coalizard_walk_33
+  - first:
+      213: 5437282797370046754
+    second: coalizard_walk_34
+  - first:
+      213: 6074761420951874052
+    second: coalizard_walk_35
+  - first:
+      213: -7069396934847338393
+    second: coalizard_walk_36
+  - first:
+      213: -7588423045893660868
+    second: coalizard_walk_37
+  - first:
+      213: 5189742392550423819
+    second: coalizard_walk_38
+  - first:
+      213: 7666789339916337043
+    second: coalizard_walk_39
+  - first:
+      213: -3585911554217973563
+    second: coalizard_walk_40
+  - first:
+      213: -4540477891971274855
+    second: coalizard_walk_0
+  - first:
+      213: 7071293010264517323
+    second: coalizard_walk_1
+  - first:
+      213: 7237081538637239129
+    second: coalizard_walk_2
+  - first:
+      213: 1707681217153719835
+    second: coalizard_walk_3
+  - first:
+      213: -775565862327205196
+    second: coalizard_walk_4
+  - first:
+      213: 5776201514802308551
+    second: coalizard_walk_5
+  - first:
+      213: -6938468073431933809
+    second: coalizard_walk_6
+  - first:
+      213: -5711682083316303055
+    second: coalizard_walk_7
+  - first:
+      213: 3664182186726428559
+    second: coalizard_walk_8
+  - first:
+      213: 768605803722081456
+    second: coalizard_walk_9
+  - first:
+      213: -3060931953357997730
+    second: coalizard_walk_10
+  - first:
+      213: 4185588247602338954
+    second: coalizard_walk_11
+  - first:
+      213: -3939119837884612936
+    second: coalizard_walk_12
+  - first:
+      213: 1230774076414227471
+    second: coalizard_walk_13
+  - first:
+      213: -5611005767981974521
+    second: coalizard_walk_14
+  - first:
+      213: 7484016488701706180
+    second: coalizard_walk_15
+  - first:
+      213: 2402220096017622911
+    second: coalizard_walk_16
+  - first:
+      213: -1822677606148644420
+    second: coalizard_walk_17
+  - first:
+      213: -2741484769073749404
+    second: coalizard_walk_18
+  - first:
+      213: -2074160430151871121
+    second: coalizard_walk_19
+  - first:
+      213: -795766730774239543
+    second: coalizard_walk_20
+  - first:
+      213: 351053367882028513
+    second: coalizard_walk_21
+  - first:
+      213: 7387589692712216618
+    second: coalizard_walk_22
+  - first:
+      213: 2122422125342313157
+    second: coalizard_walk_23
+  - first:
+      213: 6923982568798881747
+    second: coalizard_walk_24
+  - first:
+      213: -4142641275252947630
+    second: coalizard_walk_25
+  - first:
+      213: -2256497214510558467
+    second: coalizard_walk_26
+  - first:
+      213: 9061223795752237903
+    second: coalizard_walk_27
+  - first:
+      213: 3830930722906124336
+    second: coalizard_walk_28
+  - first:
+      213: 1255104617123758493
+    second: coalizard_walk_29
+  - first:
+      213: 5773922971373655208
+    second: coalizard_walk_30
+  - first:
+      213: -5582949550420494593
+    second: coalizard_walk_31
+  - first:
+      213: 13879407160590638
+    second: coalizard_walk_32
+  - first:
+      213: -2717253693858231831
+    second: coalizard_walk_33
+  - first:
+      213: 3563419665261445499
+    second: coalizard_walk_34
+  - first:
+      213: 8793937223571040821
+    second: coalizard_walk_35
+  - first:
+      213: 8638203159475166441
+    second: coalizard_walk_36
+  - first:
+      213: 6517995849577437280
+    second: coalizard_walk_37
+  - first:
+      213: -5686865299489020720
+    second: coalizard_walk_38
+  - first:
+      213: 8613936562113540609
+    second: coalizard_walk_39
+  - first:
+      213: 6442967307225502502
+    second: coalizard_walk_40
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: coalizard_walk_0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 564
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997a98ae96bfcf0c0800000000000000
+      internalID: -4540477891971274855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_1
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 564
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcae48b0787422260800000000000000
+      internalID: 7071293010264517323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_2
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 564
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9539201d0574f6460800000000000000
+      internalID: 7237081538637239129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_3
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 564
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1edd02f407e2b710800000000000000
+      internalID: 1707681217153719835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_4
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 508
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2411415f2ac35f0800000000000000
+      internalID: -775565862327205196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_5
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 508
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c56dd09ca0392050800000000000000
+      internalID: 5776201514802308551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_6
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 508
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c53bd7c0c95bf90800000000000000
+      internalID: -6938468073431933809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_7
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 508
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13bf7f138670cb0b0800000000000000
+      internalID: -5711682083316303055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_8
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 452
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f8420094ac9d230800000000000000
+      internalID: 3664182186726428559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_9
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 452
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4882ff7e2aaaa00800000000000000
+      internalID: 768605803722081456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_10
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 452
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59347e1b926585d0800000000000000
+      internalID: -3060931953357997730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_11
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 452
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c1362c552361a30800000000000000
+      internalID: 4185588247602338954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_12
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 396
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be7137b06f6559c0800000000000000
+      internalID: -3939119837884612936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_13
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 396
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04fd676086941110800000000000000
+      internalID: 1230774076414227471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_14
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 396
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c34ce7bf3b122b0800000000000000
+      internalID: -5611005767981974521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_15
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 396
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf3b3e28519cd760800000000000000
+      internalID: 7484016488701706180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_16
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 340
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f776f672376665120800000000000000
+      internalID: 2402220096017622911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_17
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 340
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb16379cf5c84b6e0800000000000000
+      internalID: -1822677606148644420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_18
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 340
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4622736a02a44f9d0800000000000000
+      internalID: -2741484769073749404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_19
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 340
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6550a1041a1733e0800000000000000
+      internalID: -2074160430151871121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_20
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 284
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6a020ef5ed4f4f0800000000000000
+      internalID: -795766730774239543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_21
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 284
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e510d99d213fd400800000000000000
+      internalID: 351053367882028513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_22
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 284
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28e2743fadf58660800000000000000
+      internalID: 7387589692712216618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_23
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 284
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca457c8dab547d10800000000000000
+      internalID: 2122422125342313157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_24
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 228
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d70144267de61060800000000000000
+      internalID: 6923982568798881747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_25
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 228
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2554da475b16286c0800000000000000
+      internalID: -4142641275252947630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_26
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 228
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df290742dbf4fa0e0800000000000000
+      internalID: -2256497214510558467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_27
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 228
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4bf028a80fefbd70800000000000000
+      internalID: 9061223795752237903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_28
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 172
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03033f102333a2530800000000000000
+      internalID: 3830930722906124336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_29
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 172
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d914d9bdff60b6110800000000000000
+      internalID: 1255104617123758493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_30
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 172
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4d135d958112050800000000000000
+      internalID: 5773922971373655208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_31
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 172
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff67240b6f06582b0800000000000000
+      internalID: -5582949550420494593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_32
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 116
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21008d4f3f413000800000000000000
+      internalID: 13879407160590638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_33
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 116
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e946fc79206a4ad0800000000000000
+      internalID: -2717253693858231831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_34
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 116
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71cc854e4fc37130800000000000000
+      internalID: 3563419665261445499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_35
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 116
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a690400575a0a70800000000000000
+      internalID: 8793937223571040821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_36
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 60
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec9c22a10011e770800000000000000
+      internalID: 8638203159475166441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_37
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 60
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068988df0b2947a50800000000000000
+      internalID: 6517995849577437280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_38
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 60
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d42672f3223411b0800000000000000
+      internalID: -5686865299489020720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_39
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 60
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102f6862aa9da8770800000000000000
+      internalID: 8613936562113540609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coalizard_walk_40
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 4
+        width: 62
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62391ae21a40a6950800000000000000
+      internalID: 6442967307225502502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
