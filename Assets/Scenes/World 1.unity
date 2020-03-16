@@ -345,7 +345,7 @@ Sprite:
         format: 0
         dimension: 0
       m_DataSize: 80
-      _typelessdata: 000000bf0000003f000000000000003f0000003f00000000000000bf000000bf000000000000003f000000bf000000000000000000000000000000000000000000000000000000000000000000000000
+      _typelessdata: 000000bf0000003f000000000000003f0000003f00000000000000bf000000bf000000000000003f000000bf00000000000000000000803f0000803f0000803f00000000000000000000803f00000000
     m_Bindpose: []
     textureRect:
       serializedVersion: 2
@@ -504,6 +504,12 @@ MonoBehaviour:
   m_InstancedGameObject: {fileID: 0}
   m_Flags: 3
   m_ColliderType: 1
+--- !u!4 &832987612 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2299797442449193291, guid: f95203ff0a958b5499f6ad5f3f69a27d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1705735699}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &974271764
 GameObject:
   m_ObjectHideFlags: 0
@@ -31636,6 +31642,7 @@ GameObject:
   - component: {fileID: 1483403095}
   - component: {fileID: 1483403094}
   - component: {fileID: 1483403097}
+  - component: {fileID: 1483403098}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -31728,6 +31735,23 @@ MonoBehaviour:
   m_CropFrameX: 1
   m_CropFrameY: 1
   m_StretchFill: 0
+--- !u!114 &1483403098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483403093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ede04e6097f53434b99caffafea0b704, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_DampTime: 10
+  m_Target: {fileID: 832987612}
+  m_XOffset: 0
+  m_YOffset: 2
+  margin: 1
 --- !u!1 &1554511627
 GameObject:
   m_ObjectHideFlags: 0
