@@ -9,8 +9,8 @@ public class EnemyController : MonoBehaviour
 
     public bool isFacingRight { get; private set; } = false;
 
-    [SerializeField] private GameObject patrolPoint1;
-    [SerializeField] private GameObject patrolPoint2;
+    [SerializeField] private GameObject leftPatrolPoint;
+    [SerializeField] private GameObject rightPatrolPoint;
 
     [SerializeField] private GameObject sightPoint;
     [SerializeField] private float sightDistance;
@@ -19,7 +19,7 @@ public class EnemyController : MonoBehaviour
     {
         get
         {
-            return new GameObject[] { patrolPoint1, patrolPoint2 };
+            return new GameObject[] { leftPatrolPoint, rightPatrolPoint };
         }
     }
 

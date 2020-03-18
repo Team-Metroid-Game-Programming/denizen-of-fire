@@ -8,6 +8,7 @@ public class PatrolBehavior : StateMachineBehaviour
 
     [SerializeField] private float speed = 5f;
     [SerializeField] private float waitAtPointTime = 2f;
+    [SerializeField] private float patrolPointOffset = 0.5f;
 
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
@@ -17,10 +18,10 @@ public class PatrolBehavior : StateMachineBehaviour
         var patrolPoints = enemyController.patrolPoints;
         var p1XDistance = Mathf.Abs(animator.transform.position.x - patrolPoints[0].transform.position.x);
         var p2XDistance = Mathf.Abs(animator.transform.position.x - patrolPoints[1].transform.position.x);
-        enemyController.targetPoint = p1XDistance < 0.5f ? patrolPoints[1].transform.position : patrolPoints[0].transform.position;
+        enemyController.targetPoint = p1XDistance < patrolPointOffset ? patrolPoints[1].transform.position : patrolPoints[0].transform.position;
 
         // flip enemy toward patrol point
-        if (p1XDistance < 0.5f && !enemyController.isFacingRight || p2XDistance < 0.5f && enemyController.isFacingRight)
+        if (p1XDistance < patrolPointOffset && !enemyController.isFacingRight || p2XDistance < patrolPointOffset && enemyController.isFacingRight)
         {
             enemyController.Flip();
         }
@@ -39,7 +40,7 @@ public class PatrolBehavior : StateMachineBehaviour
         {
             animator.SetTrigger("Chase"); // chase player when found
         }
-        else if (tPointXDistance <= 0)
+        else if (tPointXDistance <= patrolPointOffset)
             // wait a bit when enemy reaches target patrol point
             animator.SetFloat("Wait Time", waitAtPointTime);
     }

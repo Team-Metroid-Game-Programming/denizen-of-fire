@@ -215,8 +215,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd0837f0c6a857d4fbf1a479b07d720e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  patrolPoint1: {fileID: 0}
-  patrolPoint2: {fileID: 0}
+  leftPatrolPoint: {fileID: 0}
+  rightPatrolPoint: {fileID: 0}
   sightPoint: {fileID: 2259931550391647077}
   sightDistance: 10
 --- !u!70 &1618631048950780396
