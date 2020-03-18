@@ -7,6 +7,8 @@ public class PlayerMovement : MonoBehaviour
     private CharacterController characterController;
     private Animator animator;
     private Rigidbody2D rigidbod;
+    private HealthController healthController;
+
     private float horizontalMovement = 0f;
     private float verticalDirection = 0f;
     private float jumpStartTime = 0;
@@ -20,24 +22,28 @@ public class PlayerMovement : MonoBehaviour
 
     [Range(0, 5)][SerializeField] private float movementSpeed = 2f;
 
+    [SerializeField] private bool jumpEnabled = true;
     [SerializeField] private float maxJumpTime = .5f;
     [SerializeField] private float initalJumpForce = 50f;
     [SerializeField] private float jumpSpeed = 1.0f;
 
-    // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         characterController = GetComponent<CharacterController>();
         animator = GetComponent<Animator>();
         rigidbod = GetComponent<Rigidbody2D>();
+        healthController = GetComponent<HealthController>();
     }
 
     // Update is called once per frame
     void Update()
     {
         HandleMovement();
-        HandleJump();
-        HandleLedgeFall();
+        if (jumpEnabled)
+        {
+            HandleJump(); 
+        }
+        HandleLedgeFall(); 
     }
 
     void FixedUpdate()
@@ -75,12 +81,12 @@ public class PlayerMovement : MonoBehaviour
         var totalSpeed = !isCrouching ? horizontalMovement * movementSpeed : 0;
         characterController.Move(totalSpeed, false);
         animator.SetFloat("XSpeed", Mathf.Abs(totalSpeed));
+        animator.SetFloat("YSpeed", rigidbod.velocity.y);
         animator.SetBool("Crouching", isCrouching);
     }
 
     private void HandleJump()
     {
-        animator.SetFloat("YSpeed", rigidbod.velocity.y);
         animator.SetBool("Grounded", characterController.grounded);
         if (Input.GetButtonDown("Jump"))
         {
@@ -119,7 +125,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void HandleJumpPhysics()
     {
-        if (Input.GetButton("Jump") && canJump)
+        if (animator.GetBool("Jumping") && canJump)
         {
             rigidbod.velocity = new Vector2(rigidbod.velocity.x, jumpSpeed);
         }

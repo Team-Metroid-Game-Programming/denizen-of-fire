@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerAttack : MonoBehaviour
+public class PlayerCombat : MonoBehaviour
 {
     private PlayerMovement playerMovement;
     private Animator animator;
-    private Rigidbody2D rigidbod;
+    private HealthController healthController;
 
     [SerializeField] private string punchButton = "Fire1";
     [SerializeField] private float punchDamage = 5.0f;
@@ -16,23 +16,26 @@ public class PlayerAttack : MonoBehaviour
 
     [SerializeField] private string meditateButton = "Fire3";
 
+
     private bool isPunch1 = true;
     private bool meditating = false;
 
-    // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         playerMovement = GetComponent<PlayerMovement>();
         animator = GetComponent<Animator>();
-        rigidbod = GetComponent<Rigidbody2D>();
+        healthController = GetComponent<HealthController>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        HandlePunch();
-        HandleKick();
-        HandleMeditate();
+        if (!healthController.isDead)
+        {
+            HandlePunch();
+            HandleKick();
+            HandleMeditate(); 
+        }
     }
 
     private void HandlePunch()

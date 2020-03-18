@@ -25,7 +25,7 @@ public class DamageController : MonoBehaviour
         {
             // deal damage
             var healthController = collision.gameObject.GetComponent<HealthController>();
-            if (healthController != null)
+            if (healthController != null && !healthController.isDead)
                 healthController.ModifyHealth(-damage);
             else
                 Debug.LogWarning($"No HealthController on object {collision.name}");
