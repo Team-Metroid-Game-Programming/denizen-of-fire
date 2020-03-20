@@ -86,7 +86,6 @@ public class CharacterController: MonoBehaviour
         }
     }
 
-
     public void Move(float move, bool crouch)
     {
         // If crouching, check to see if the character can stand up
@@ -151,7 +150,6 @@ public class CharacterController: MonoBehaviour
             }
         }
     }
-
 
     private void Flip()
     {

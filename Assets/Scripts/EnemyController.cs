@@ -6,7 +6,6 @@ public enum PlayerScanDirection { forward, backward }
 public class EnemyController : MonoBehaviour
 {
     private int count = 0;
-    private Animator animator;
 
     public bool isFacingRight { get; private set; } = false;
 
@@ -42,7 +41,6 @@ public class EnemyController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        animator = GetComponent<Animator>();
         targetPoint = patrolPoints[0].transform.position;
     }
 
@@ -87,12 +85,6 @@ public class EnemyController : MonoBehaviour
     public void MoveTowardsTargetPoint(float speed)
     {
         transform.position = Vector2.MoveTowards(transform.position, targetPoint, speed * Time.deltaTime);
-    }
-
-    public void Kill()
-    {
-        animator.SetTrigger("Die");
-        GetComponent<Rigidbody2D>().isKinematic = true;
     }
 
     public void Deactivate()
