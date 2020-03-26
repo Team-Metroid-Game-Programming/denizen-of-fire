@@ -74,15 +74,18 @@ public class CharacterController: MonoBehaviour
             }
         }
 
-        Collider2D[] ceilingColliders = Physics2D.OverlapCircleAll(m_CeilingCheck.position, k_CeilingRadius, m_WhatIsGround);
-        for (int i = 0; i < ceilingColliders.Length; i++)
+        if (!m_wasCrouching)
         {
-            if (ceilingColliders[i].gameObject != gameObject)
+            Collider2D[] ceilingColliders = Physics2D.OverlapCircleAll(m_CeilingCheck.position, k_CeilingRadius, m_WhatIsGround);
+            for (int i = 0; i < ceilingColliders.Length; i++)
             {
-                m_OnCeiling = true;
-                if (!wasOnCeiling)
-                    OnCeilingHit.Invoke();
-            }
+                if (ceilingColliders[i].gameObject != gameObject)
+                {
+                    m_OnCeiling = true;
+                    if (!wasOnCeiling)
+                        OnCeilingHit.Invoke();
+                }
+            } 
         }
     }
 
