@@ -14,6 +14,8 @@ public class PlayerCombat : MonoBehaviour
     [SerializeField] private string kickButton = "Fire2";
     [SerializeField] private float kickDamage = 5.0f;
 
+    [SerializeField] private bool attackEnabled = true;
+
     [SerializeField] private string meditateButton = "Fire3";
 
 
@@ -32,8 +34,11 @@ public class PlayerCombat : MonoBehaviour
     {
         if (!healthController.isDead)
         {
-            HandlePunch();
-            HandleKick();
+            if (attackEnabled)
+            {
+                HandlePunch();
+                HandleKick();
+            }
             HandleMeditate(); 
         }
     }

@@ -169,7 +169,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_Enabled
+    attribute: attackEnabled
     path: 
     classID: 114
     script: {fileID: 11500000, guid: fe5c00a5bf6b4cd4c90810b08769926a, type: 3}
@@ -229,10 +229,10 @@ AnimationClip:
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 3305885265
+      attribute: 1640295687
       script: {fileID: 11500000, guid: fe5c00a5bf6b4cd4c90810b08769926a, type: 3}
       typeID: 114
-      customType: 24
+      customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 0
@@ -476,7 +476,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_Enabled
+    attribute: attackEnabled
     path: 
     classID: 114
     script: {fileID: 11500000, guid: fe5c00a5bf6b4cd4c90810b08769926a, type: 3}
