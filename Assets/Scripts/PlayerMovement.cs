@@ -41,7 +41,7 @@ public class PlayerMovement : MonoBehaviour
         HandleMovement();
         if (jumpEnabled)
         {
-            HandleJump(); 
+            HandleJump();
         }
         HandleLedgeFall(); 
     }
@@ -62,6 +62,11 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    public void OnCrouch(bool crouch)
+    {
+        animator.SetBool("Crouching", crouch);
+    }
+
     public void OnCeilingHit()
     {
         // ouch I hit my head :(
@@ -78,11 +83,10 @@ public class PlayerMovement : MonoBehaviour
     private void HandleMovementPhysics()
     {
         isCrouching = verticalDirection < 0;
-        var totalSpeed = !isCrouching ? horizontalMovement * movementSpeed : 0;
-        characterController.Move(totalSpeed, false);
+        var totalSpeed = horizontalMovement * movementSpeed;
+        characterController.Move(totalSpeed, isCrouching);
         animator.SetFloat("XSpeed", Mathf.Abs(totalSpeed));
         animator.SetFloat("YSpeed", rigidbod.velocity.y);
-        animator.SetBool("Crouching", isCrouching);
     }
 
     private void HandleJump()
