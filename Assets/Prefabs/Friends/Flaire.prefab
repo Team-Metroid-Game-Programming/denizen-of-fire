@@ -158,7 +158,7 @@ MonoBehaviour:
   m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1536
   m_GroundCheck: {fileID: 2299797443273998306}
   m_CeilingCheck: {fileID: 2299797441376760413}
   m_CrouchDisableCollider: {fileID: 0}
@@ -192,7 +192,18 @@ MonoBehaviour:
         m_CallState: 2
   OnCrouchEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2299797442449193297}
+        m_MethodName: OnCrouch
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 1
 --- !u!50 &2299797442449193294
 Rigidbody2D:
   serializedVersion: 4
@@ -252,7 +263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c8b76c92962477479473da58dc1a503, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 2
+  movementSpeed: 1
   jumpEnabled: 1
   maxJumpTime: 0.25
   initalJumpForce: 120
@@ -273,6 +284,7 @@ MonoBehaviour:
   punchDamage: 5
   kickButton: Fire2
   kickDamage: 5
+  attackEnabled: 1
   meditateButton: Fire3
 --- !u!114 &2743915062767322008
 MonoBehaviour:
