@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - Enemy
+  - Pickup
   layers:
   - Default
   - TransparentFX
@@ -19,8 +20,6 @@ TagManager:
   - Platforms
   - Ground
   - CameraPhysics
-  - 
-  - 
   - 
   - 
   - 
