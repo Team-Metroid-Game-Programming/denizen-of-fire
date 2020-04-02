@@ -516,3 +516,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.8
   waitAtPointTime: 2
+  patrolPointOffset: 2
