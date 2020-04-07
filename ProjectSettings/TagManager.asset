@@ -19,7 +19,9 @@ TagManager:
   - Player
   - Platforms
   - Ground
+  - Pickups
   - CameraPhysics
+  - 
   - 
   - 
   - 
