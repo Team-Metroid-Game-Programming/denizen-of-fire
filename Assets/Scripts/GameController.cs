@@ -15,6 +15,7 @@ public class GameController : MonoBehaviour
     void Update()
     {
         ToggleObsticles();
+        HandleDamageToPlayer();
     }
 
 
@@ -30,5 +31,12 @@ public class GameController : MonoBehaviour
             midAirObst.SetActive(!midAirObst.activeSelf);
         if (Input.GetKeyDown(KeyCode.H))
             highAirObst.SetActive(!highAirObst.activeSelf);
+    }
+
+    [SerializeField] private GameObject player;
+    private void HandleDamageToPlayer()
+    {
+        if (Input.GetKeyDown(KeyCode.V))
+            player.GetComponent<HealthController>().ModifyHealth(-10);
     }
 }

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PickupController : MonoBehaviour
 {
+    [SerializeField] private float value = 10f;
 
     // Start is called before the first frame update
     void Start()
@@ -28,10 +29,18 @@ public class PickupController : MonoBehaviour
     private void HandlePlayerPickup(GameObject playerObject)
     {
         var healthController = playerObject.GetComponent<HealthController>();
-        if (!healthController.isMaxedOut)
+        var playerCombat = playerObject.GetComponent<PlayerCombat>();
+        if (playerCombat.meditating && !healthController.isMaxedOut)
         {
-            // put sparkles here then set object to inactive
-            // modify health/magic
+            gameObject.SetActive(false);
+            if (!healthController.isAtMaxMagic)
+            {
+                healthController.ModifyMagic(value);
+            }
+            else if (!healthController.isAtMaxHealth)
+            {
+                healthController.ModifyHealth(value);
+            }
         }
     }
 }

@@ -30,7 +30,7 @@ public class HealthController : MonoBehaviour
     {
         get
         {
-            return health;
+            return magic;
         }
     }
     public float maxMagic { get; private set; }
@@ -77,26 +77,21 @@ public class HealthController : MonoBehaviour
             animator?.SetTrigger("Hurt");
         }
 
-        health = ModifyValue(health, maxHealth);
+        health = ModifyValue(value, health, maxHealth);
     }
 
     public void ModifyMagic(float value)
     {
-        if (value < 0)
-        {
-            animator?.SetTrigger("Hurt");
-        }
-
-        health = ModifyValue(magic, maxMagic);
+        magic = ModifyValue(value, magic, maxMagic);
     }
 
-    private float ModifyValue(float value, float maxValue)
+    private float ModifyValue(float value, float currentValue, float maxValue)
     {
-        value += value;
+        currentValue += value;
 
-        if (value < 0) value = 0;
-        if (value > maxValue) value = maxHealth;
+        if (currentValue < 0) currentValue = 0;
+        if (currentValue > maxValue) currentValue = maxValue;
 
-        return value;
+        return currentValue;
     }
 }
