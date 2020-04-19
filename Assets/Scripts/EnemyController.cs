@@ -15,6 +15,9 @@ public class EnemyController : MonoBehaviour
     [SerializeField] private GameObject sightPoint;
     [SerializeField] private float sightDistance;
 
+    [SerializeField] private GameObject pickupDrop;
+    [SerializeField] private int numberOfPickupDrops;
+
     public GameObject[] patrolPoints
     {
         get
@@ -87,8 +90,21 @@ public class EnemyController : MonoBehaviour
         transform.position = Vector2.MoveTowards(transform.position, targetPoint, speed * Time.deltaTime);
     }
 
+    public void DropMagic(int number)
+    {
+        if (pickupDrop != null)
+        {
+            for (var i = 0; i < number; i++)
+            {
+                var pickupBody = Instantiate(pickupDrop, transform.position, Quaternion.identity).GetComponent<Rigidbody2D>();
+                pickupBody.AddForce(new Vector2(Random.Range(-100, 100), Random.Range(0, 50)));
+            }
+        }
+    }
+
     public void Deactivate()
     {
+        DropMagic(numberOfPickupDrops);
         gameObject.SetActive(false);
     }
 }
