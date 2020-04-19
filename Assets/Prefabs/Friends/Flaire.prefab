@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2299797441376760413}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: CeilingCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -311,9 +311,9 @@ GameObject:
   - component: {fileID: 2299797443036480314}
   - component: {fileID: 2299797443036480315}
   - component: {fileID: 4336644781869176177}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: PunchCheck
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -372,6 +372,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetTag: Enemy
   damage: 5
+  knockbackForce: {x: 2000, y: 500}
 --- !u!1 &2299797443043106438
 GameObject:
   m_ObjectHideFlags: 0
@@ -383,9 +384,9 @@ GameObject:
   - component: {fileID: 2299797443043106439}
   - component: {fileID: 2299797443043106440}
   - component: {fileID: 2622827583566232362}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: KickCheck
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -444,6 +445,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetTag: Enemy
   damage: 5
+  knockbackForce: {x: 150, y: 150}
 --- !u!1 &2299797443273998305
 GameObject:
   m_ObjectHideFlags: 0
@@ -453,7 +455,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2299797443273998306}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -48,8 +48,11 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        HandleFallPhysics();
-        HandleJumpPhysics();
+        if (jumpEnabled)
+        {
+            HandleFallPhysics();
+            HandleJumpPhysics(); 
+        }
         HandleMovementPhysics();
     }
 
@@ -86,7 +89,6 @@ public class PlayerMovement : MonoBehaviour
         var totalSpeed = horizontalMovement * movementSpeed;
         characterController.Move(totalSpeed, isCrouching);
         animator.SetFloat("XSpeed", Mathf.Abs(totalSpeed));
-        animator.SetFloat("YSpeed", rigidbod.velocity.y);
     }
 
     private void HandleJump()
@@ -129,6 +131,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void HandleJumpPhysics()
     {
+        animator.SetFloat("YSpeed", rigidbod.velocity.y);
+
         if (animator.GetBool("Jumping") && canJump)
         {
             rigidbod.velocity = new Vector2(rigidbod.velocity.x, jumpSpeed);

@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 1618631048374842618}
   - component: {fileID: 1618631048374842617}
   - component: {fileID: 1618631048374842616}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LickCheck
-  m_TagString: Ground
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43,7 +43,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_UsedByEffector: 1
+  m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -1.98135, y: 0.7639052}
   m_SpriteTilingProperty:
@@ -72,6 +72,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetTag: Player
   damage: 10
+  knockbackForce: {x: 2000, y: 200}
 --- !u!1 &1618631048950779922
 GameObject:
   m_ObjectHideFlags: 0
@@ -89,7 +90,7 @@ GameObject:
   - component: {fileID: 5291313307911493169}
   - component: {fileID: 3828380496654785567}
   - component: {fileID: 324435384406853971}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Coalizard
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -219,6 +220,9 @@ MonoBehaviour:
   rightPatrolPoint: {fileID: 0}
   sightPoint: {fileID: 2259931550391647077}
   sightDistance: 10
+  pickupDrop: {fileID: 3401571465740978648, guid: 73a65233de3e200eaa0b8fccb3deb4a7,
+    type: 3}
+  numberOfPickupDrops: 3
 --- !u!70 &1618631048950780396
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -294,20 +298,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 40
-  OnDeath:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1618631048950780395}
-        m_MethodName: Kill
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+  magic: 0
+  hurtTimeMultiplier: 1
 --- !u!1 &2259931550391647077
 GameObject:
   m_ObjectHideFlags: 0
