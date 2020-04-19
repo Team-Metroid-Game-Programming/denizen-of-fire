@@ -374,7 +374,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetTag: Enemy
   damage: 5
-  knockbackForce: {x: 2000, y: 500}
+  knockbackForce: {x: 150, y: 150}
 --- !u!1 &2299797443043106438
 GameObject:
   m_ObjectHideFlags: 0
