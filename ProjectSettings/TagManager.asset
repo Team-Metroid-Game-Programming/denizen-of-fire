@@ -17,11 +17,11 @@ TagManager:
   - 
   - 
   - Player
+  - Enemy
   - Platforms
   - Ground
   - Pickups
   - CameraPhysics
-  - 
   - 
   - 
   - 
