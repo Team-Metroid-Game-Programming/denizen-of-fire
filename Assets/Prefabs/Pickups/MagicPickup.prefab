@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3401571465214115932}
   - component: {fileID: 3401571465214115935}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Skin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,8 @@ GameObject:
   - component: {fileID: 3401571465740978650}
   - component: {fileID: 3401571465740978651}
   - component: {fileID: 3401571465740978652}
-  m_Layer: 0
+  - component: {fileID: 6477172784917215843}
+  m_Layer: 11
   m_Name: MagicPickup
   m_TagString: Pickup
   m_Icon: {fileID: 0}
@@ -182,3 +183,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &6477172784917215843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3401571465740978648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cf9b5f3c34236946b8f2a2934b48f6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

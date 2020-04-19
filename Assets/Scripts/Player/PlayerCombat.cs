@@ -18,10 +18,10 @@ public class PlayerCombat : MonoBehaviour
 
     [SerializeField] private string meditateButton = "Fire3";
 
+    public bool meditating { get; private set; } = false;
 
     private bool isPunch1 = true;
-    private bool meditating = false;
-
+    
     void Awake()
     {
         playerMovement = GetComponent<PlayerMovement>();
