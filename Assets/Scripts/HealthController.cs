@@ -72,12 +72,11 @@ public class HealthController : MonoBehaviour
         }
     }
 
-    public void ModifyHealth(float value, Vector2 forceApplied = default)
+    public void ModifyHealth(float value)
     {
-        if (value < 0 && !animator.GetCurrentAnimatorStateInfo(0).IsName("Hurt"))
+        if (value < 0)
         {
             animator.SetTrigger("Hurt");
-            rigidbod.AddForce(forceApplied);
         }
 
         health = ModifyValue(value, health, maxHealth);

@@ -46,7 +46,10 @@ public class DamageController : MonoBehaviour
 
                 force.x = isFacingRight ? force.x : -force.x;
 
-                healthController.ModifyHealth(-damage, force);
+                var targetRigidbody = healthController.gameObject.GetComponent<Rigidbody2D>();
+                targetRigidbody?.AddForce(force);
+
+                healthController.ModifyHealth(-damage);
             }
             else
             {
