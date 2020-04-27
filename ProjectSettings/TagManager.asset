@@ -7,6 +7,8 @@ TagManager:
   - Ground
   - Enemy
   - Pickup
+  - PlayerDamage
+  - EnemyDamage
   layers:
   - Default
   - TransparentFX

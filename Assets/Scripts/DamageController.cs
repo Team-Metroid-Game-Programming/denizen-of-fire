@@ -31,11 +31,11 @@ public class DamageController : MonoBehaviour
                 var force = knockbackForce;
                 var isFacingRight = true;
 
-                if (tag == "Enemy")
+                if (tag == "EnemyDamage")
                 {
                     isFacingRight = GetComponentInParent<EnemyController>().isFacingRight;
                 }
-                else if (tag == "Player")
+                else if (tag == "PlayerDamage")
                 {
                     isFacingRight = GetComponentInParent<CharacterController>().isFacingRight;
                 }
@@ -46,10 +46,15 @@ public class DamageController : MonoBehaviour
 
                 force.x = isFacingRight ? force.x : -force.x;
 
-                var targetRigidbody = healthController.gameObject.GetComponent<Rigidbody2D>();
-                targetRigidbody?.AddForce(force);
+                var targetRigidbody = collision.gameObject.GetComponent<Rigidbody2D>();
+                var targetAnimator = collision.gameObject.GetComponent<Animator>();
 
-                healthController.ModifyHealth(-damage);
+                if (targetAnimator == null || !targetAnimator.GetCurrentAnimatorStateInfo(0).IsName("Hurt"))
+                {
+                    targetRigidbody?.AddForce(force);
+                    healthController.ModifyHealth(-damage);
+                }
+
             }
             else
             {

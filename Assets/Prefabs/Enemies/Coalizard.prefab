@@ -1,5 +1,100 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &863198682576981209
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7866132056364569247}
+  - component: {fileID: 7051960200688873558}
+  - component: {fileID: 3583763345441411524}
+  - component: {fileID: 6992641270741013592}
+  m_Layer: 8
+  m_Name: DamageBounds
+  m_TagString: EnemyDamage
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7866132056364569247
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863198682576981209}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.6, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1618631048950780399}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7051960200688873558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863198682576981209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2943fc62182474489f69f6ead25334f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetTag: Player
+  damage: 10
+  knockbackForce: {x: 400, y: 0}
+--- !u!68 &3583763345441411524
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863198682576981209}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -1.4044796, y: -0.5575545}
+  - {x: -1.4061785, y: 0.07580072}
+  - {x: -1.6545837, y: 0.06285274}
+  - {x: -1.9656283, y: 0.235412}
+  - {x: -1.7178266, y: 0.5079942}
+--- !u!61 &6992641270741013592
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863198682576981209}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.76818585, y: -0.16107109}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.10791421, y: 0.87609917}
+  m_EdgeRadius: 0
 --- !u!1 &1618631048374842619
 GameObject:
   m_ObjectHideFlags: 0
@@ -13,7 +108,7 @@ GameObject:
   - component: {fileID: 1618631048374842616}
   m_Layer: 8
   m_Name: LickCheck
-  m_TagString: Enemy
+  m_TagString: EnemyDamage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90,6 +185,7 @@ GameObject:
   - component: {fileID: 5291313307911493169}
   - component: {fileID: 3828380496654785567}
   - component: {fileID: 324435384406853971}
+  - component: {fileID: 6998563450216527690}
   m_Layer: 9
   m_Name: Coalizard
   m_TagString: Enemy
@@ -110,6 +206,7 @@ Transform:
   m_Children:
   - {fileID: 1618631048374842618}
   - {fileID: 2154599468865348157}
+  - {fileID: 7866132056364569247}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -195,7 +292,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 2
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 2
@@ -233,11 +330,11 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 1
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.51691216, y: 0.72002727}
-  m_Size: {x: 2.9220662, y: 1.398387}
+  m_Offset: {x: -0.11776666, y: 0.18089311}
+  m_Size: {x: 2.4289715, y: 0.32013816}
   m_Direction: 1
 --- !u!250 &5291313307911493169
 PointEffector2D:
@@ -251,10 +348,10 @@ PointEffector2D:
   m_ColliderMask:
     serializedVersion: 2
     m_Bits: 256
-  m_ForceMagnitude: 1000
+  m_ForceMagnitude: 400
   m_ForceVariation: 0
   m_DistanceScale: 10
-  m_ForceSource: 1
+  m_ForceSource: 0
   m_ForceTarget: 0
   m_ForceMode: 0
   m_Drag: 1
@@ -269,10 +366,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_IsTrigger: 1
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
-  m_Offset: {x: -0.4457205, y: 0.5667914}
+  m_Offset: {x: -0.22174287, y: 0.5514527}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -283,7 +380,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.9951776, y: 1.0871866}
+  m_Size: {x: 2.3668284, y: 1.0565091}
   m_EdgeRadius: 0
 --- !u!114 &324435384406853971
 MonoBehaviour:
@@ -300,6 +397,42 @@ MonoBehaviour:
   health: 40
   magic: 0
   hurtTimeMultiplier: 1
+--- !u!60 &6998563450216527690
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618631048950779922}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 3.875, y: 1.375}
+    newSize: {x: 3.875, y: 1.375}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.64035535, y: 1.375}
+      - {x: -1.5452332, y: 1.375}
+      - {x: -1.7431245, y: 1.0938271}
+      - {x: -1.9496492, y: 0.8001972}
+      - {x: -1.6142329, y: 0.6241405}
+      - {x: -1.4139408, y: 0.6042767}
+      - {x: -1.4098431, y: 0.048594043}
+      - {x: 1.1721456, y: 0.012148511}
+      - {x: 1.179433, y: 0.3812696}
+      - {x: 0.71050245, y: 0.95476687}
+      - {x: -0.1907049, y: 0.94628763}
 --- !u!1 &2259931550391647077
 GameObject:
   m_ObjectHideFlags: 0
