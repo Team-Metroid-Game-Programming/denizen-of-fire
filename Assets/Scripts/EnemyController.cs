@@ -5,8 +5,6 @@ using UnityEngine;
 public enum PlayerScanDirection { forward, backward }
 public class EnemyController : MonoBehaviour
 {
-    private int count = 0;
-
     public bool isFacingRight { get; private set; } = false;
 
     [SerializeField] private GameObject leftPatrolPoint;
@@ -41,8 +39,7 @@ public class EnemyController : MonoBehaviour
         }
     }
 
-    // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         targetPoint = patrolPoints[0].transform.position;
     }

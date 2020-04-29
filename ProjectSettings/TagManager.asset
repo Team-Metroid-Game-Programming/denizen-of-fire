@@ -9,6 +9,7 @@ TagManager:
   - Pickup
   - PlayerDamage
   - EnemyDamage
+  - Check Point
   layers:
   - Default
   - TransparentFX

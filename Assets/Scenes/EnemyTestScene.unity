@@ -238,10 +238,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85ff0d10a31515f42a16a642e90356a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 1846105592}
+  startPoint: {fileID: 473856858}
+  respawnSeconds: 4
   groundObst: {fileID: 573978585}
   midAirObst: {fileID: 762092376}
   highAirObst: {fileID: 204681903}
-  player: {fileID: 0}
 --- !u!1 &204681903
 GameObject:
   m_ObjectHideFlags: 0
@@ -482,6 +484,36 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+--- !u!1 &473856857
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 473856858}
+  m_Layer: 0
+  m_Name: Start Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &473856858
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473856857}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -11.82, y: 0.03, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &550622001
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -498,6 +530,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Flaire
+      objectReference: {fileID: 0}
+    - target: {fileID: 2299797442449193290, guid: f95203ff0a958b5499f6ad5f3f69a27d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2299797442449193291, guid: f95203ff0a958b5499f6ad5f3f69a27d,
         type: 3}
@@ -533,6 +570,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2299797442449193294, guid: f95203ff0a958b5499f6ad5f3f69a27d,
+        type: 3}
+      propertyPath: m_SleepingMode
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2299797442449193295, guid: f95203ff0a958b5499f6ad5f3f69a27d,
         type: 3}
@@ -617,7 +659,7 @@ PrefabInstance:
     - target: {fileID: 2743915062767322008, guid: f95203ff0a958b5499f6ad5f3f69a27d,
         type: 3}
       propertyPath: health
-      value: 617
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f95203ff0a958b5499f6ad5f3f69a27d, type: 3}
@@ -1080,7 +1122,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 550622001}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1846105592}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe5c00a5bf6b4cd4c90810b08769926a, type: 3}
@@ -1107,13 +1149,19 @@ MonoBehaviour:
   targetTag: Player
   damage: 0
   knockbackForce: {x: 500, y: 0}
+--- !u!1 &1846105592 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2299797442449193290, guid: f95203ff0a958b5499f6ad5f3f69a27d,
+    type: 3}
+  m_PrefabInstance: {fileID: 550622001}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1866301123 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2299797442449193297, guid: f95203ff0a958b5499f6ad5f3f69a27d,
     type: 3}
   m_PrefabInstance: {fileID: 550622001}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1846105592}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0c8b76c92962477479473da58dc1a503, type: 3}
@@ -1717,7 +1765,7 @@ PrefabInstance:
     - target: {fileID: 7500874968803278107, guid: 8f99d7681c853bc4c90fbd148df17032,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9.575557
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8858120961775072006, guid: 8f99d7681c853bc4c90fbd148df17032,
         type: 3}

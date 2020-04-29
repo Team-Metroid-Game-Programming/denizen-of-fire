@@ -88,9 +88,26 @@ using UnityEngine.Events;
             magic = ModifyValue(value, magic, maxMagic);
         }
 
-        private float ModifyValue(float value, float currentValue, float maxValue)
-        {
-            currentValue += value;
+    public void Spawn(Transform point)
+    {
+        isDead = false;
+        health = maxHealth;
+        animator.Play("Idle");
+
+        transform.position = point.position;
+        rigidbod.simulated = true;
+        rigidbod.isKinematic = false;
+    }
+
+    public void Spawn(Transform point, Animation animation)
+    {
+        Spawn(point);
+        animation.Play();
+    }
+
+    private float ModifyValue(float value, float currentValue, float maxValue)
+    {
+        currentValue += value;
 
             if (currentValue < 0) currentValue = 0;
             if (currentValue > maxValue) currentValue = maxValue;
