@@ -186,6 +186,7 @@ GameObject:
   - component: {fileID: 3828380496654785567}
   - component: {fileID: 324435384406853971}
   - component: {fileID: 6998563450216527690}
+  - component: {fileID: 6337897303845152263}
   m_Layer: 9
   m_Name: Coalizard
   m_TagString: Enemy
@@ -433,6 +434,21 @@ PolygonCollider2D:
       - {x: 1.179433, y: 0.3812696}
       - {x: 0.71050245, y: 0.95476687}
       - {x: -0.1907049, y: 0.94628763}
+--- !u!114 &6337897303845152263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618631048950779922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2943fc62182474489f69f6ead25334f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetTag: Player
+  damage: 0
+  knockbackForce: {x: 500, y: 0}
 --- !u!1 &2259931550391647077
 GameObject:
   m_ObjectHideFlags: 0
